@@ -18,7 +18,7 @@ function Header() {
               
                 <a className="nav-link" href="/">AnaSayfa</a>
             
-                <a className="nav-link" onClick={()=>window.open("/aboutus","_blank")} style={{cursor:"pointer"}}>Hakkımızda</a>
+                <a className="nav-link" href="/aboutus">Hakkımızda</a>
               
                 <a className="nav-link" href="/contact">Bize Ulaşın</a>
              

@@ -1,13 +1,15 @@
 import React from 'react'
+import Card from '../components/card';
 import Header from '../components/header';
 
-function Kahvaltilik() {
+
+function Home() {
   return (
     <div>
-      <Header></Header>
-     kahvaltilik
+     home
+    
     </div>
   )
 }
 
-export default Kahvaltilik;
+export default Home;
