@@ -31,9 +31,25 @@ function Router() {
     <BrowserRouter>
       <Switch>
         
-      <Route path="/kahvaltilik">
-        <Kahvaltilik />
-      </Route>
+      <Route path="/" element={<Home />} />
+        <Route path="aboutus" element={<Aboutus />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="anayemekler" element={<Anayemekler />} />
+        <Route path="atistirmalik" element={<Atistirmalik />} />
+        <Route path="burger" element={<Burger />} />
+        <Route path="caylar" element={<Caylar />} />
+        <Route path="espresso" element={<Espresso />} />
+        <Route path="filtrekahve" element={<Filtrekahve />} />
+        <Route path="kahvaltilik" element={<Kahvaltilik />} />
+        <Route path="kokteyl" element={<Kokteyl />} />
+        <Route path="makarnalar" element={<Makarnalar />} />
+        <Route path="mesrubatlar" element={<Mesrubatlar />} />
+        <Route path="salatalar" element={<Salatalar />} />
+        <Route path="sandvicler" element={<Sandvicler />} />
+        <Route path="sogukkahveler" element={<Sogukkahveler />} />
+        <Route path="sicakicecek" element={<Sicakicecekler />} />
+        <Route path="tatlilar" element={<Tatlilar />} />
+        <Route path="turkkahveleri" element={<Turkkahveleri />} />
         </Switch>
        
     </BrowserRouter>

@@ -2,7 +2,6 @@ import React from 'react'
 import "../App.css";
 import images from '../images';
 
-
 function Card() {
   return (
       <div className="card-body">
@@ -12,12 +11,12 @@ function Card() {
 
             
               <div className="card">
-                
+                <a href="/kahvaltilik">
                   <div className="card-logo">
                       <img className="category-pic" src={images.kahvaltiMenu} alt="Kahvalti Menu" />
                   </div>
                   <div className="card-header">Kahvaltılık</div>
-                  
+                  </a>
                  
               </div>
             
