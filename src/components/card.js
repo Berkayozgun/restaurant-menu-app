@@ -18,17 +18,18 @@ function Card() {
                   </div>
                   <div className="card-header">Kahvaltılık</div>
                   </a>
-                 
               </div>
             
 
 
 
               <div className="card">
+                  <a href="/sandvicler">
                   <div className="card-logo">
                         <img className="category-pic" src={images.sandwichMenu} alt="Sandviç Menu" />
                   </div>
                   <div className="card-header">Sandviçler</div>
+                  </a>
               </div>
 
               <div className="card">

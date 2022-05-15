@@ -1,9 +1,13 @@
 import React from 'react'
+import Header from '../components/header';
 
-function sandvicler() {
+function Sandvicler() {
   return (
-    <div>sandvicler</div>
+    <div>
+      <Header></Header>
+      sandvicler
+    </div>
   )
 }
 
-export default sandvicler
+export default Sandvicler;

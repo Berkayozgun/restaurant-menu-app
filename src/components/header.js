@@ -16,11 +16,17 @@ function Header() {
           <div className="header-nav">
             
               
-                <a className="nav-link" href="/">AnaSayfa</a>
+                <a className="nav-link" href="/">
+                  <button>Ana sayfa</button>
+                </a>
             
-                <a className="nav-link" href="/aboutus">Hakkımızda</a>
+                <a className="nav-link" href="/aboutus">
+                  <button>Hakkımızda</button>
+                </a>
               
-                <a className="nav-link" href="/contact">Bize Ulaşın</a>
+                <a className="nav-link" href="/contact">
+                  <button>Bize Ulaşın</button>
+                </a>
              
                 <div className="bucket-h">
                 <Bucket/>

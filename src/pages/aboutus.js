@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Header from "../components/header";
 
 function Aboutus() {
   return (
-    <div>boutus</div>
+    
+    <div>aboutus
+      <Header/>
+    </div>
   )
 }
 

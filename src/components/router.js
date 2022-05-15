@@ -16,7 +16,7 @@ import Kokteyl from "../categories/kokteyl";
 import Makarnalar from "../categories/makarnalar";
 import Mesrubatlar from "../categories/mesrubatlar";
 import Salatalar from "../categories/salatalar";
-import Sandvicler from "../categories/sandvicler";
+import Sandvicler from "../categories/sandvicler.js";
 import Sogukkahveler from "../categories/sogukkahve";
 import Sicakicecekler from "../categories/sicakicecek";
 import Tatlilar from "../categories/tatlilar";
@@ -26,9 +26,19 @@ function Router() {
   return (
     <BrowserRouter>
       <Switch>
+
         <Route path="/kahvaltilik">
           <Kahvaltilik />
         </Route>
+
+        <Route path="/">
+          <Home />
+        </Route>
+
+        <Route path="/sandvicler">
+          <Sandvicler />
+        </Route>
+
       </Switch>
     </BrowserRouter>
   );
