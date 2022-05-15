@@ -5,94 +5,88 @@ import images from "../images/index.js";
 function Card() {
   return (
     <div className="card-body">
+
+
       <div className="card-row">
+
 
         <div className="card">
           <a href="/kahvaltilik">
             <div className="card-logo">
-              <img
-                className="category-pic"
-                src={images.kahvaltiMenu}
-                alt="Kahvalti Menu"
-              />
+              <img className="category-pic" src={images.kahvaltiMenu} alt="Kahvalti Menu"/>
             </div>
             <div className="card-header">Kahvaltılık</div>
           </a>
         </div>
 
+
         <div className="card">
-          <a href="sandvicler">
+          <a href="/sandvicler">
             <div className="card-logo">
-              <img
-                className="category-pic"
-                src={images.sandwichMenu}
-                alt="Sandviç Menu"
-              />
+              <img className="category-pic" src={images.sandwichMenu} alt="Sandviç Menu"/>
             </div>
             <div className="card-header">Sandviçler</div>
           </a>
         </div>
 
+
         <div className="card">
+          <a href="/atistirmalik">
           <div className="card-logo">
-            <img
-              className="category-pic"
-              src={images.atistirmalikMenu}
-              alt="Atistirmalik Menu"
-            />
+            <img className="category-pic" src={images.atistirmalikMenu} alt="Atistirmalik Menu"/>
           </div>
           <div className="card-header">Atıştırmalık</div>
+          </a>
         </div>
 
+
         <div className="card">
-          <div className="card-logo">
-            <img
-              className="category-pic"
-              src={images.makarnalarMenu}
-              alt="Makarna Menu"
-            />
-          </div>
-          <div className="card-header">Makarnalar</div>
+          <a href="/makarnalar">
+            <div className="card-logo">
+              <img className="category-pic" src={images.makarnalarMenu} alt="Makarna Menu" />
+            </div>
+            <div className="card-header">Makarnalar</div>
+          </a>
         </div>
+
       </div>
 
+
       <div className="card-row">
-        <div className="card">
-          <div className="card-logo">
-            <img
-              className="category-pic"
-              src={images.salatalarMenu}
-              alt="Salatalar Menu"
-            />
-          </div>
-          <div className="card-header">Salatalar</div>
-        </div>
+        
+
 
         <div className="card">
-          <div className="card-logo">
-            <img
-              className="category-pic"
-              src={images.burgerMenu}
-              alt="Burger Menu"
-            />
-          </div>
-          <div className="card-header">Burger</div>
+          <a href="/salatalar">
+            <div className="card-logo">
+              <img className="category-pic" src={images.salatalarMenu} alt="Salatalar Menu" />
+              </div>
+            <div className="card-header">Salatalar</div>
+          </a>
+        </div>
+
+
+
+        <div className="card">
+          <a href="/burger">
+            <div className="card-logo">
+              <img className="category-pic" src={images.burgerMenu} alt="Burger Menu" />
+            </div>
+            <div className="card-header">Burger</div>
+          </a>
         </div>
 
         <div className="card">
           <a href="/anayemekler">
             <div className="card-logo">
-              <img
-                className="category-pic"
-                src={images.anayemeklerMenu}
-                alt="Ana Yemekler Menu"
-              />
+              <img className="category-pic" src={images.anayemeklerMenu} alt="Ana Yemekler Menu" />
             </div>
             <div className="card-header">Ana Yemekler</div>
           </a>
         </div>
 
         <div className="card">
+          <a href="/tatlilar">
           <div className="card-logo">
             <img
               className="category-pic"
@@ -101,11 +95,18 @@ function Card() {
             />
           </div>
           <div className="card-header">Tatlılar</div>
+          </a>
         </div>
+
+
       </div>
 
+
       <div className="card-row">
+
+
         <div className="card">
+          <a href="/caylar">
           <div className="card-logo">
             <img
               className="category-pic"
@@ -114,7 +115,9 @@ function Card() {
             />
           </div>
           <div className="card-header">Çaylar</div>
+          </a>
         </div>
+
 
         <div className="card">
           <div className="card-logo">
@@ -127,6 +130,7 @@ function Card() {
           <div className="card-header">Türk Kahveleri</div>
         </div>
 
+
         <div className="card">
           <div className="card-logo">
             <img
@@ -138,6 +142,7 @@ function Card() {
           <div className="card-header">Espresso ve Granül Kahveler</div>
         </div>
 
+
         <div className="card">
           <div className="card-logo">
             <img
@@ -148,7 +153,10 @@ function Card() {
           </div>
           <div className="card-header">Filtre Kahve ve Dünya Kahveleri</div>
         </div>
+
+
       </div>
+
 
       <div className="card-row">
         <div className="card">
@@ -195,6 +203,8 @@ function Card() {
           <div className="card-header">Milkshake ve Meşrubatlar</div>
         </div>
       </div>
+
+
     </div>
   );
 }

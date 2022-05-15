@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "../pages/home";
 import Aboutus from "../pages/aboutus";
 import Contact from "../pages/contact";
-
 import Anayemekler from "../categories/anayemekler";
 import Atistirmalik from "../categories/atistirmalik";
 import Burger from "../categories/burger";
@@ -27,26 +26,84 @@ function PublicRouter() {
     <BrowserRouter>
       <Switch>
 
-        <Route exact path="/sandvicler">
-          <Sandvicler />
+        <Route exact path="/">
+          <Home />
+        </Route>
+
+        <Route path="/aboutus">
+          <Aboutus />
+        </Route>
+
+        <Route path="/contact">
+          <Contact />
+        </Route>
+
+        <Route path="/anayemekler">
+          <Anayemekler />
+        </Route>
+
+        <Route path="/atistirmalik">
+          <Atistirmalik />
+        </Route>
+
+        <Route path="/burger">
+          <Burger />
+        </Route>
+
+        <Route path="/caylar">
+          <Caylar />
+        </Route>
+
+        <Route path="/espresso">
+          <Espresso />
+        </Route>
+
+        <Route path="/filtrekahve">
+          <Filtrekahve />
         </Route>
 
         <Route path="/kahvaltilik">
           <Kahvaltilik />
         </Route>
 
-        <Route exact path="/">
-          <Home />
+        <Route path="/kokteyl">
+          <Kokteyl />
         </Route>
 
-        <Route path="/anayemekler">
-          <Anayemekler />
+        <Route path="/makarnalar">
+          <Makarnalar />
+        </Route>
+
+        <Route path="/mesrubatlar">
+          <Mesrubatlar />
+        </Route>
+
+        <Route path="/salatalar">
+          <Salatalar />
+        </Route> 
+
+        <Route path="/sandvicler">
+          <Sandvicler />
+        </Route>
+
+        <Route path="/sogukkahveler">
+          <Sogukkahveler />
+        </Route>
+
+        <Route path="/sicakicecekler">
+          <Sicakicecekler />
+        </Route>
+
+        <Route path="/tatlilar">
+          <Tatlilar />
+        </Route>
+
+        <Route path="/turkkahveleri">
+          <Turkkahveleri />
         </Route>
         
-        <Route path="/aboutus">
-          <Aboutus />
-        </Route>
 
+        
       </Switch>
     </BrowserRouter>
   );
