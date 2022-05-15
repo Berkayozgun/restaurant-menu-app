@@ -1,6 +1,6 @@
 import React from 'react'
 import "../App.css";
-import images from '../images';
+import images from '../images/index.js';
 
 
 function Card() {
@@ -64,10 +64,12 @@ function Card() {
               </div>
 
               <div className="card">
+                  <a href="/anayemekler">
                   <div className="card-logo">
                         <img className="category-pic" src={images.anayemeklerMenu} alt="Ana Yemekler Menu" />
                   </div>
                   <div className="card-header">Ana Yemekler</div>
+                  </a>
               </div>
               
               <div className="card">

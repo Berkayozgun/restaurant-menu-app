@@ -11,12 +11,12 @@ import Burger from "../categories/burger";
 import Caylar from "../categories/caylar";
 import Espresso from "../categories/espresso";
 import Filtrekahve from "../categories/filtrekahve";
-import Kahvaltilik from "../categories/kahvaltilik.js";
+import Kahvaltilik from "../categories/kahvaltilik";
 import Kokteyl from "../categories/kokteyl";
 import Makarnalar from "../categories/makarnalar";
 import Mesrubatlar from "../categories/mesrubatlar";
 import Salatalar from "../categories/salatalar";
-import Sandvicler from "../categories/sandvicler.js";
+import Sandvicler from "../categories/sandvicler";
 import Sogukkahveler from "../categories/sogukkahve";
 import Sicakicecekler from "../categories/sicakicecek";
 import Tatlilar from "../categories/tatlilar";
@@ -37,6 +37,14 @@ function Router() {
 
         <Route path="/sandvicler">
           <Sandvicler />
+        </Route>
+
+        <Route path="/anayemekler">
+          <Anayemekler />
+        </Route>
+
+        <Route path="/aboutus">
+          <Aboutus />
         </Route>
 
       </Switch>

@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-function anayemekler() {
+function Anayemekler() {
   return (
     <div>anayemekler</div>
   )
 }
 
-export default anayemekler
+export default Anayemekler;

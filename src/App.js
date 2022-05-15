@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
-import Header from "./components/header";
 import Router from "./components/router";
-import Card from "./components/card";
+
 
 function App() {
   return (

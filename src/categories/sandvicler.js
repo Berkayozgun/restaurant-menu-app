@@ -1,12 +1,10 @@
-import React from 'react'
-import Header from '../components/header';
+import React from 'react';
+
+
 
 function Sandvicler() {
   return (
-    <div>
-      <Header></Header>
-      sandvicler
-    </div>
+    <div>sandvicler</div>
   )
 }
 
