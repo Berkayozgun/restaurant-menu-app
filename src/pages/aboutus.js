@@ -5,7 +5,6 @@ function Aboutus() {
   return (
     
     <div>aboutus
-      <Header/>
     </div>
   )
 }

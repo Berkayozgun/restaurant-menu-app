@@ -22,27 +22,27 @@ import Sicakicecekler from "../categories/sicakicecek";
 import Tatlilar from "../categories/tatlilar";
 import Turkkahveleri from "../categories/turkkahveleri";
 
-function Router() {
+function PublicRouter() {
   return (
     <BrowserRouter>
       <Switch>
+
+        <Route exact path="/sandvicler">
+          <Sandvicler />
+        </Route>
 
         <Route path="/kahvaltilik">
           <Kahvaltilik />
         </Route>
 
-        <Route path="/">
+        <Route exact path="/">
           <Home />
-        </Route>
-
-        <Route path="/sandvicler">
-          <Sandvicler />
         </Route>
 
         <Route path="/anayemekler">
           <Anayemekler />
         </Route>
-
+        
         <Route path="/aboutus">
           <Aboutus />
         </Route>
@@ -52,4 +52,4 @@ function Router() {
   );
 }
 
-export default Router;
+export default PublicRouter;

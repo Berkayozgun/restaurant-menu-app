@@ -1,17 +1,14 @@
-import React from 'react'
-import Card from '../components/card';
-import Header from '../components/header';
-
+import React from "react";
+import Card from "../components/card";
+import Header from "../components/header";
 
 function Home() {
   return (
-    <div>Homepage
-      <Header/>
-      <Card/>
-     
+    <div>
+      Homepage
+      <Card />
     </div>
-
-  )
+  );
 }
 
 export default Home;

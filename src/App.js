@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
-import Router from "./components/router";
+import PublicRouter from "./components/publicRouter";
+import Header from './components/header';
 
 
 function App() {
   return (
     <div className="App">
-      <Router/>
+      <Header/>
+      <PublicRouter/>
     </div>
   );
 }
