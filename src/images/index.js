@@ -15,6 +15,7 @@ import sicakicecekMenu from './sicakicecek-menu.jpg';
 import sogukkahvelerMenu from './sogukkahveler-menu.jpg';
 import kokteylMenu from './kokteyl-menu.webp';
 import mesrubatMenu from './mesrubat-menu.webp';
+import sepetIcon from './bucket-icon.png';
 
 var images = {
     logo,
@@ -33,6 +34,7 @@ var images = {
     sicakicecekMenu,
     sogukkahvelerMenu,
     kokteylMenu,
-    mesrubatMenu
+    mesrubatMenu,
+    sepetIcon,
 };
 export default images;

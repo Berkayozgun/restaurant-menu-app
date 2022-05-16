@@ -4,6 +4,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "../pages/home";
 import Aboutus from "../pages/aboutus";
 import Contact from "../pages/contact";
+import Bucket from "../components/bucket";
+
+
 import Anayemekler from "../categories/anayemekler";
 import Atistirmalik from "../categories/atistirmalik";
 import Burger from "../categories/burger";
@@ -37,6 +40,14 @@ function PublicRouter() {
         <Route path="/contact">
           <Contact />
         </Route>
+
+        <Route path="/bucket">
+          <Bucket />
+        </Route>
+
+
+
+
 
         <Route path="/anayemekler">
           <Anayemekler />
