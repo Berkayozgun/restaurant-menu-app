@@ -17,7 +17,7 @@ function Kahvaltilik() {
               <div className="card-logo">
                 <img className="category-pic" src={images.kahvaltiTabagi} alt="Kahvalti Menu"/>
               </div>
-              <div className="card-header">Kahvaltı Tabağı</div>
+              <div className="card-header">Kahvaltı Tabağı </div>
             </a>
           </div>
 

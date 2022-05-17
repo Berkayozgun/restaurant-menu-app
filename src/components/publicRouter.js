@@ -19,8 +19,8 @@ import Makarnalar from "../categories/makarnalar";
 import Mesrubatlar from "../categories/mesrubatlar";
 import Salatalar from "../categories/salatalar";
 import Sandvicler from "../categories/sandvicler";
-import Sogukkahveler from "../categories/sogukkahve";
-import Sicakicecekler from "../categories/sicakicecek";
+import Sogukkahve from "../categories/sogukkahve";
+import Sicakicecek from "../categories/sicakicecek";
 import Tatlilar from "../categories/tatlilar";
 import Turkkahveleri from "../categories/turkkahveleri";
 
@@ -44,8 +44,6 @@ function PublicRouter() {
         <Route path="/bucket">
           <Bucket />
         </Route>
-
-
 
 
 
@@ -97,12 +95,12 @@ function PublicRouter() {
           <Sandvicler />
         </Route>
 
-        <Route path="/sogukkahveler">
-          <Sogukkahveler />
+        <Route path="/sogukkahve">
+          <Sogukkahve />
         </Route>
 
-        <Route path="/sicakicecekler">
-          <Sicakicecekler />
+        <Route path="/sicakicecek">
+          <Sicakicecek />
         </Route>
 
         <Route path="/tatlilar">
