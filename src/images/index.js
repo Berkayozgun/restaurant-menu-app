@@ -16,6 +16,9 @@ import sogukkahvelerMenu from './sogukkahveler-menu.jpg';
 import kokteylMenu from './kokteyl-menu.webp';
 import mesrubatMenu from './mesrubat-menu.webp';
 import sepetIcon from './bucket-icon.png';
+import kahvaltiTabagi from './orderImages/kahvalti-tabagi.jpeg';
+import serpmeKahvalti from './orderImages/serpme-kahvalti.jpg';
+import serpmeLuxKahvalti from './orderImages/serpme-kahvalti-lux.jpg';
 
 var images = {
     logo,
@@ -36,5 +39,8 @@ var images = {
     kokteylMenu,
     mesrubatMenu,
     sepetIcon,
+    kahvaltiTabagi,
+    serpmeKahvalti,
+    serpmeLuxKahvalti
 };
 export default images;
