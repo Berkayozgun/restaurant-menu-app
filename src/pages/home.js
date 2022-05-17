@@ -5,7 +5,7 @@ import Card from "../components/card";
 function Home() {
   return (
     <div>
-      Homepage
+      
       <Card />
     </div>
   );
