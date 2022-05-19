@@ -22,17 +22,22 @@
 }
 
 .card-row{
-  display:flex;
+  display:grid;
+  grid-template-columns:repeat(4,2fr);
+  grid-template-rows: repeat(4,2fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 50px;
+  margin-top:5%;
   width:100%;
-  height: 300px;
+  padding-bottom:5%;
 }
 
 .card{
   width:240px;
   height:240px;
   border:1px solid #d2d2d2;
-  margin-left:7%;
-  margin-top:5%;
+  margin-left:15%;
+  margin-top:1%;
   text-align: center;
   border-radius: 20%;
 }
@@ -74,17 +79,21 @@
 }
 
 .order-card-row{
-  display:flex;
+  display:grid;
+  grid-template-columns:repeat(4,2fr);
+  grid-template-rows: repeat(5,2fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 50px;
+  margin-top:5%;
   width:100%;
-  height: 300px;
 }
 
 .order-card{
   width:240px;
   height:240px;
   border:1px solid #d2d2d2;
-  margin-left:7%;
-  margin-top:5%;
+  margin-left:15%;
+  margin-top:1%;
   text-align: center;
   border-radius: 20%;
 }

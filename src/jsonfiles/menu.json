@@ -1,0 +1,98 @@
+[
+    {
+        "id":"1",
+        "categoryName":"Kahvaltılık",
+        "image":"",
+        "address":"kahvaltilik"
+    },
+    {
+        "id":"2",
+        "categoryName":"Sandviçler",
+        "image":"",
+        "address":"sandvicler"
+    },
+    {
+        "id":"3",
+        "categoryName":"Atıştırmalık",
+        "image":"",
+        "address":"atistirmalik"
+    },
+    {
+        "id":"4",
+        "categoryName":"Makarnalar",
+        "image":"",
+        "address":"makarnalar"
+    },
+    {
+        "id":"5",
+        "categoryName":"Salatalar",
+        "image":"",
+        "address":"salatalar"
+    },
+    { 
+        "id":"6",
+        "categoryName":"Burger",
+        "image":"",
+        "address":"burger"
+    },
+    { 
+        "id":"7",
+        "categoryName":"Ana Yemekler",
+        "image":"",
+        "address":"anayemekler"
+    },
+    {
+        "id":"8",
+        "categoryName":"Tatlılar",
+        "image":"",
+        "address":"tatlilar"
+    },
+    {
+        "id":"9",
+        "categoryName":"Çaylar",
+        "image":"",
+        "address":"caylar"
+    },
+    {
+        "id":"10",
+        "categoryName":"Türk Kahveleri",
+        "image":"",
+        "address":"turkkahveleri"
+    },
+    {
+        "id":"11",
+        "categoryName":"Espresso ve Granül Kahveler",
+        "image":"",
+        "address":"espresso"
+    },
+    {
+        "id":"12",
+        "categoryName":"Filtre Kahve ve Dünya Kahveleri",
+        "image":"",
+        "address":"filtrekahve"
+    },
+    {
+        "id":"13",
+        "categoryName":"Sıcak Sütlü İçecekler",
+        "image":"",
+        "address":"sicakicecek"
+    },
+    {
+        "id":"14",
+        "categoryName":"Soğuk Kahveler",
+        "image":"",
+        "address":"sogukkahve"
+    },
+    { 
+        "id":"15",
+        "categoryName":"Kokteyller",
+        "image":"",
+        "address":"kokteyl"
+    },
+    {
+        "id":"16",
+        "categoryName":"Milkshake ve Meşrubatlar",
+        "image":"",
+        "address":"mesrubatlar"
+    }
+]
