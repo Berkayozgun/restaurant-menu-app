@@ -81,7 +81,7 @@
 .order-card-row{
   display:grid;
   grid-template-columns:repeat(4,2fr);
-  grid-template-rows: repeat(5,2fr);
+  grid-template-rows: repeat(content,2fr);
   grid-column-gap: 0px;
   grid-row-gap: 50px;
   margin-top:5%;

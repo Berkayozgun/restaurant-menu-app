@@ -1,6 +1,6 @@
 import React from 'react';
 import "../App.css";
-import images from "../images/index.js";
+import Data from '../jsonfiles/makarnalar.json';
 
 function makarnalar() {
   return (
@@ -10,87 +10,16 @@ function makarnalar() {
 
         <div className="order-card-row">
 
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
+        {Data.map((post) => { 
+            return <div key={post.id} className="order-card">
+            <a href="/makarnalar" style={{textDecoration: 'none'}}>
               <div className="card-logo">
-                <img className="category-pic" src={images.kahvaltiTabagi} alt="Kahvalti Menu"/>
+                <img className="category-pic" src={post.image} alt="images"/>
               </div>
-              <div className="card-header">Napoliten</div>
+              <div className="card-header">{post.title}</div>
             </a>
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Arabiata</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Alfredo</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Bolognez</div>
-            </a>
-
-          </div>
-
-        </div>
-
-        <div className="order-card-row">
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.kahvaltiTabagi} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Ton Balıklı ve Sebzeli</div>
-            </a>
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Mantı</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Arabiata mantı</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Özel Special Soslu Mantı</div>
-            </a>
-
-          </div>
+            </div>
+        })}
 
         </div>
 

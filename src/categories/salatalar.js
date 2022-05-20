@@ -1,6 +1,6 @@
 import React from 'react';
 import "../App.css";
-import images from "../images/index.js";
+import Data from '../jsonfiles/salatalar.json';
 
 function salatalar() {
   return (
@@ -10,58 +10,19 @@ function salatalar() {
 
         <div className="order-card-row">
 
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
+        {Data.map((post) => {
+            return <div key={post.id} className="order-card">
+            <a href="/salatalar" style={{textDecoration: 'none'}}>
               <div className="card-logo">
-                <img className="category-pic" src={images.kahvaltiTabagi} alt="Kahvalti Menu"/>
+                <img className="category-pic" src={post.image} alt="images"/>
               </div>
-              <div className="card-header">Yeşillik Salata</div>
+              <div className="card-header">{post.title}</div>
             </a>
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Peynirli Salata</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Tavuklu Salata</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Ton balıklı Salata</div>
-            </a>
-
-          </div>
-
+            </div>
+        })}
         </div>
 
-       
-
-        <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Çıtır Tavuk Salata</div>
-            </a>
-
-          </div>
+   
 
 
         </div>

@@ -1,0 +1,95 @@
+[
+    {
+        "id":"1",
+        "title":"Kahvaltı Sandviç",
+        "price":17,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"2",
+        "title":"Karışık Sandviç",
+        "price":25,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"3",
+        "title":"Kavurmalı Sandviç",
+        "price":30,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"4",
+        "title":"Tavuklu Sandviç",
+        "price":28,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"5",
+        "title":"Ton Balıklı Sandviç",
+        "price":28,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"6",
+        "title":"Köfte Sandviç",
+        "price":30,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"7",
+        "title":"Patso",
+        "price":15,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"8",
+        "title":"Sosisli Patso",
+        "price":18,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"9",
+        "title":"Sosisli Sandviç",
+        "price":21,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"10",
+        "title":"Kumru",
+        "price":20,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"11",
+        "title":"Tavuklu Meksika Sandviç",
+        "price":25,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"12",
+        "title":"Tavuklu Barbekü Sandviç",
+        "price":25,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"13",
+        "title":"Tavuklu Soya  Sandviç",
+        "price":25,
+        "about":"", 
+        "image":""
+    }
+    
+
+]

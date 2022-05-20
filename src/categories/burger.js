@@ -1,6 +1,6 @@
 import React from 'react';
 import "../App.css";
-import images from '../images';
+import Data from '../jsonfiles/burger.json';
 
 function burger() {
   return (
@@ -10,93 +10,19 @@ function burger() {
 
         <div className="order-card-row">
 
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
+        {Data.map((post) => { 
+            return <div key={post.id} className="order-card">
+            <a href="/makarnalar" style={{textDecoration: 'none'}}>
               <div className="card-logo">
-                <img className="category-pic" src={images.kahvaltiTabagi} alt="Kahvalti Menu"/>
+                <img className="category-pic" src={post.image} alt="images"/>
               </div>
-              <div className="card-header">Tavuk Burger</div>
+              <div className="card-header">{post.title}</div>
             </a>
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Duble Tavuk Burger</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Taco Tavuk Burger</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Duble Taco Tavuk Burger</div>
-            </a>
-
-          </div>
-
-        </div>
-
-        <div className="order-card-row">
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.kahvaltiTabagi} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Köfte Burger</div>
-            </a>
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Duble Köfte Burger</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Taco Köfte Burger</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Duble Taco Köfte Burger</div>
-            </a>
-
-          </div>
-
-        </div>
-
+            </div>
+        })}
         
 
-       
+        </div>
 
         </div>
 

@@ -1,0 +1,37 @@
+[
+    {
+        "id":"1",
+        "title":"Sufle",
+        "price":23,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"2",
+        "title":"Dondurmalı Sufle",
+        "price":25,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"3",
+        "title":"Günlük Meyveli Cup",
+        "price":20,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"4",
+        "title":"Çikolatalı Krep",
+        "price":15,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"5",
+        "title":"Meyveli Krep",
+        "price":17,
+        "about":"",
+        "image":""
+    }
+]

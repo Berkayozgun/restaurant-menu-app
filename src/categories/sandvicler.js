@@ -1,6 +1,6 @@
 import React from 'react';
 import "../App.css";
-import images from "../images/index.js";
+import Data from "../jsonfiles/sandvicler";
 
 
 function Sandvicler() {
@@ -11,155 +11,17 @@ function Sandvicler() {
 
         <div className="order-card-row">
 
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
+          {Data.map((post) => { 
+            return <div key={post.id} className="order-card">
+            <a href="/sandvicler" style={{textDecoration: 'none'}}>
               <div className="card-logo">
-                <img className="category-pic" src={images.kahvaltiTabagi} alt="Kahvalti Menu"/>
+                <img className="category-pic" src={post.image} alt="images"/>
               </div>
-              <div className="card-header">Kahvaltı Sandviç</div>
+              <div className="card-header">{post.title}</div>
             </a>
+            </div>
+          })}
           </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Karışık Sandviç</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Kavurmalı Sandviç</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Tavuklu Sandviç</div>
-            </a>
-
-          </div>
-
-        </div>
-
-         <div className="order-card-row">
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.kahvaltiTabagi} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Ton Balıklı Sandviç</div>
-            </a>
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Köfte Sandviç</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Patso</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Sosisli Patso</div>
-            </a>
-
-          </div>
-
-        </div>
-
-         <div className="order-card-row">
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.kahvaltiTabagi} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Sosisli Sandviç</div>
-            </a>
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Kumru</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Tavuklu Sandviç</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Tavuklu Mexica Sandviç</div>
-            </a>
-
-          </div>
-
-        </div>
-
-        <div className="order-card-row">
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Tavuklu Barbekü Sandviç</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Tavuklu Soya Sandviç</div>
-            </a>
-          </div>
-
-        </div>
 
         </div>
 

@@ -1,0 +1,37 @@
+[
+    {
+        "id":"1",
+        "title":"Yeşillik Salata",
+        "price":24,
+        "about":"Kıvırcık, atom, roka, nane, cherry domates",
+        "image":""
+    },
+    {
+        "id":"2",
+        "title":"Peynirli Salata",
+        "price":30,
+        "about":"Kıvırcık, domates, salatalık, çeçil peynir, beyaz peynir, kaşar peynir, cheddar peynir",
+        "image":""
+    },
+    {
+        "id":"3",
+        "title":"Tavuklu Salata",
+        "price":36,
+        "about":"Kıvırcık, roka, tavuk, cherry domates, mısır",
+        "image":""
+    },
+    {
+        "id":"4",
+        "title":"Ton Balıklı Salata",
+        "price":37,
+        "about":"Kıvırcık , roka, nane, domates, mısır, ton balığı",
+        "image":""
+    },
+    {
+        "id":"5",
+        "title":"Çıtır Tavuk Salata",
+        "price":38,
+        "about":"Kıvırcık , domates, çıtır paneli kemiksiz tavuk parçaları, mısır",
+        "image":""
+    }
+]

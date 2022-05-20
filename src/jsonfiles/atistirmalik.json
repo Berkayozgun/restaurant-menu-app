@@ -1,0 +1,93 @@
+[
+    {
+        "id":"1",
+        "title":"Sepet Patates",
+        "price":15,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"2",
+        "title":"Sepet Soğan Halkası",
+        "price":15,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"3",
+        "title":"Kova Patates",
+        "price":25,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"4",
+        "title":"Kova Sosis",
+        "price":28,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"5",
+        "title":"Kova Special",
+        "price":28,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"6",
+        "title":"Kova Tavuk",
+        "price":35,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"7",
+        "title":"Atıştırmalık Kasa",
+        "price":40,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"8",
+        "title":"Tavuk Dürüm",
+        "price":32,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"9",
+        "title":"Tavuk Wrap",
+        "price":34,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"10",
+        "title":"Köri Wrap",
+        "price":34,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"11",
+        "title":"Kaşarlı Köri Wrap",
+        "price":34,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"12",
+        "title":"Köfte Dürüm",
+        "price":34,
+        "about":"", 
+        "image":""
+    },
+    {
+        "id":"13",
+        "title":"Köfte Wrap",
+        "price":42,
+        "about":"", 
+        "image":""
+    }
+]
