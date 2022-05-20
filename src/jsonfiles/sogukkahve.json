@@ -1,0 +1,100 @@
+[
+    {
+        "id":"1",
+        "title":"Affogato",
+        "price":20,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"2",
+        "title":"Buzlu Filtre Kahve",
+        "price":20,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"3",
+        "title":"Buzlu Americano",
+        "price":20,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"4",
+        "title":"Buzlu Türk Kahvesi",
+        "price":20,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"5",
+        "title":"Buzlu Granül Kahve",
+        "price":20,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"6",
+        "title":"Dalgona Coffee",
+        "price":20,
+        "about":"Süt üzerine çırpılmış kahve kreması ile servis edilir.",
+        "image":""
+    },
+    {
+        "id":"7",
+        "title":"Buzlu Sütlü Granül Kahve",
+        "price":22,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"8",
+        "title":"Buzlu Latte",
+        "price":22,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"9",
+        "title":"Buzlu Mocha",
+        "price":22,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"10",
+        "title":"Buzlu White Mocha",
+        "price":22,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"11",
+        "title":"Buzlu Macchiato",
+        "price":22,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"12",
+        "title":"Frappe",
+        "price":23,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"13",
+        "title":"Frappucino",
+        "price":24,
+        "about":"Çikolata, karamel, fındık seçenekleri vardır.",
+        "image":""
+    },
+    {
+        "id":"14",
+        "title":"Dondurmalı Frappucino",
+        "price":25,
+        "about":"Karamelli Dondurma",
+        "image":""
+    }
+]

@@ -1,7 +1,6 @@
 import React from 'react';
 import "../App.css";
-import images from '../images';
-
+import Data from '../jsonfiles/turkkahveleri.json';
 function turkkahveleri() {
   return (
     <div>
@@ -10,89 +9,20 @@ function turkkahveleri() {
 
         <div className="order-card-row">
 
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
+        {Data.map((post) => { 
+            return <div key={post.id} className="order-card">
+            <a href="/sandvicler" style={{textDecoration: 'none'}}>
               <div className="card-logo">
-                <img className="category-pic" src={images.kahvaltiTabagi} alt="Kahvalti Menu"/>
+                <img className="category-pic" src={post.image} alt="images"/>
               </div>
-              <div className="card-header">Türk Kahvesi</div>
+              <div className="card-header">{post.title}</div>
             </a>
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Aromalı Türk Kahvesi</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Damla Sakızlı Türk Kahvesi </div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Sütlü Türk Kahvesi</div>
-            </a>
-
-          </div>
+            </div>
+          })}
 
         </div>
 
-          <div className="order-card-row">
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.kahvaltiTabagi} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Dibek Türk Kahvesi</div>
-            </a>
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Sütlü Tahinli Türk Kahvesi</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Menengiç Türk Kahvesi</div>
-            </a>
-
-          </div>
-
-          <div className="order-card">
-            <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
-              <div className="card-logo">
-                <img className="category-pic" src={images.serpmeLuxKahvalti} alt="Kahvalti Menu"/>
-              </div>
-              <div className="card-header">Osmanlı Kahvesi</div>
-            </a>
-
-          </div>
-
-        </div>
+         
 
        
 

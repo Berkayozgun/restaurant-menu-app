@@ -1,0 +1,79 @@
+[
+    {
+        "id":"1",
+        "title":"Bardak Çay",
+        "price":6,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"2",
+        "title":"Fincan Çay",
+        "price":10,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"3",
+        "title":"Kuşburnu Çayı",
+        "price":21,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"4",
+        "title":"Ada Çayı",
+        "price":21,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"5",
+        "title":"Ihlamur Çayı",
+        "price":21,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"6",
+        "title":"Papatya Çayı",
+        "price":21,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"7",
+        "title":"Kış Çayı",
+        "price":24,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"8",
+        "title":"Yeşil Çay",
+        "price":24,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"9",
+        "title":"Nane Limon Çayı",
+        "price":20,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"10",
+        "title":"Tropikal Çay",
+        "price":22,
+        "about":"",
+        "image":""
+    },
+    {
+        "id":"11",
+        "title":"Atom Çayı",
+        "price":27,
+        "about":"",
+        "image":""
+    }
+]
