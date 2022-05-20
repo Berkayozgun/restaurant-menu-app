@@ -2,97 +2,97 @@
     {
         "id":"1",
         "categoryName":"Kahvaltılık",
-        "image":"",
+        "image":"https://images2.imgbox.com/b4/63/z6bdvGMe_o.jpg",
         "address":"kahvaltilik"
     },
     {
         "id":"2",
         "categoryName":"Sandviçler",
-        "image":"",
+        "image":"https://images2.imgbox.com/c7/ec/VgZWm9eJ_o.jpg",
         "address":"sandvicler"
     },
     {
         "id":"3",
         "categoryName":"Atıştırmalık",
-        "image":"",
+        "image":"https://images2.imgbox.com/dd/78/M2yU6ymi_o.jpg",
         "address":"atistirmalik"
     },
     {
         "id":"4",
         "categoryName":"Makarnalar",
-        "image":"",
+        "image":"https://images2.imgbox.com/9b/f7/VelJXOph_o.jpg",
         "address":"makarnalar"
     },
     {
         "id":"5",
         "categoryName":"Salatalar",
-        "image":"",
+        "image":"https://images2.imgbox.com/1f/29/6rYLFdiY_o.jpg",
         "address":"salatalar"
     },
     { 
         "id":"6",
         "categoryName":"Burger",
-        "image":"",
+        "image":"https://images2.imgbox.com/53/23/WLejE8jT_o.jpg",
         "address":"burger"
     },
     { 
         "id":"7",
         "categoryName":"Ana Yemekler",
-        "image":"",
+        "image":"https://images2.imgbox.com/89/75/fJkcL2s2_o.jpg",
         "address":"anayemekler"
     },
     {
         "id":"8",
         "categoryName":"Tatlılar",
-        "image":"",
+        "image":"https://images2.imgbox.com/61/13/F451ozEb_o.jpg",
         "address":"tatlilar"
     },
     {
         "id":"9",
         "categoryName":"Çaylar",
-        "image":"",
+        "image":"https://images2.imgbox.com/3c/34/C4txgfvi_o.jpg",
         "address":"caylar"
     },
     {
         "id":"10",
         "categoryName":"Türk Kahveleri",
-        "image":"",
+        "image":"https://images2.imgbox.com/9b/9c/1h45Wx4L_o.jpg",
         "address":"turkkahveleri"
     },
     {
         "id":"11",
         "categoryName":"Espresso ve Granül Kahveler",
-        "image":"",
+        "image":"https://images2.imgbox.com/d5/79/ccw47Nj1_o.jpg",
         "address":"espresso"
     },
     {
         "id":"12",
         "categoryName":"Filtre Kahve ve Dünya Kahveleri",
-        "image":"",
+        "image":"https://images2.imgbox.com/c2/ca/MTGrTUZD_o.jpg",
         "address":"filtrekahve"
     },
     {
         "id":"13",
         "categoryName":"Sıcak Sütlü İçecekler",
-        "image":"",
+        "image":"https://images2.imgbox.com/10/0d/pfWrYpAc_o.jpg",
         "address":"sicakicecek"
     },
     {
         "id":"14",
         "categoryName":"Soğuk Kahveler",
-        "image":"",
+        "image":"https://images2.imgbox.com/02/58/2blX9C8u_o.jpg",
         "address":"sogukkahve"
     },
     { 
         "id":"15",
         "categoryName":"Kokteyller",
-        "image":"",
+        "image":"https://images2.imgbox.com/a9/d6/7oG55KYi_o.jpg",
         "address":"kokteyl"
     },
     {
         "id":"16",
         "categoryName":"Milkshake ve Meşrubatlar",
-        "image":"",
+        "image":"https://images2.imgbox.com/cf/18/a5ClfTTQ_o.jpg",
         "address":"mesrubatlar"
     }
 ]
