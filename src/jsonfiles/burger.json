@@ -3,56 +3,56 @@
         "id":"1",
         "title":"Tavuk Burger",
         "price":34,
-        "about":"",
+        "about":"Patates ile servis edilir.",
         "image":""
     },
     {
         "id":"2",
         "title":"Duble Tavuk Burger",
         "price":42,
-        "about":"",
+        "about":"Patates ile servis edilir.",
         "image":""
     },
     {
         "id":"3",
         "title":"Taco Tavuk Burger",
         "price":35,
-        "about":"",
+        "about":"Patates ile servis edilir.",
         "image":""
     },
     {
         "id":"4",
         "title":"Duble Taco Tavuk Burger",
         "price":45,
-        "about":"",
+        "about":"Patates ile servis edilir.",
         "image":""
     },
     {
         "id":"5",
         "title":"Köfte Burger",
         "price":42,
-        "about":"",
+        "about":"Patates ile servis edilir.",
         "image":""
     },
     {
         "id":"6",
         "title":"Duble Köfte Burger",
         "price":55,
-        "about":"",
+        "about":"Patates ile servis edilir.",
         "image":""
     },
     {
         "id":"7",
         "title":"Taco Köfte Burger",
         "price":44,
-        "about":"",
+        "about":"Patates ile servis edilir.",
         "image":""
     },
     {
         "id":"8",
         "title":"Duble Taco Köfte Burger",
         "price":58,
-        "about":"",
+        "about":"Patates ile servis edilir.",
         "image":""
     }
 ]

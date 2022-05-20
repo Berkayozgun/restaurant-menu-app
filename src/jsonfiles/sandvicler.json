@@ -3,42 +3,42 @@
         "id":"1",
         "title":"Kahvaltı Sandviç",
         "price":17,
-        "about":"", 
+        "about":"Kıvırcık, salatalık, domates, beyaz peynir", 
         "image":"https://images2.imgbox.com/22/db/Ydn6LEPS_o.jpg"
     },
     {
         "id":"2",
         "title":"Karışık Sandviç",
         "price":25,
-        "about":"", 
+        "about":"Kıvırcık, domates, salatalık, salam, kaşar, beyaz peynir, mısır",  
         "image":"https://images2.imgbox.com/f7/70/H5eDrzKl_o.jpg"
     },
     {
         "id":"3",
         "title":"Kavurmalı Sandviç",
         "price":30,
-        "about":"", 
+        "about":"Kıvırcık, domates, beyaz peynir, kavurma", 
         "image":"https://images2.imgbox.com/d8/fe/770Dp9xb_o.jpg"
     },
     {
         "id":"4",
         "title":"Tavuklu Sandviç",
         "price":28,
-        "about":"", 
+        "about":"Kıvırcık, domates, ızgara tavuk, patates", 
         "image":"https://images2.imgbox.com/32/dd/hYrwvaaM_o.jpg"
     },
     {
         "id":"5",
         "title":"Ton Balıklı Sandviç",
         "price":28,
-        "about":"", 
+        "about":"Kıvırcık, domates, salatalık, ton balığı, mısır", 
         "image":"https://images2.imgbox.com/bd/c9/DC9B8cY7_o.jpg"
     },
     {
         "id":"6",
         "title":"Köfte Sandviç",
         "price":30,
-        "about":"", 
+        "about":"Kıvırcık, domates, köfte", 
         "image":"https://images2.imgbox.com/03/44/ANjX9Gpz_o.jpg"
     },
     {
@@ -66,14 +66,14 @@
         "id":"10",
         "title":"Kumru",
         "price":20,
-        "about":"", 
+        "about":"Sucuk, salam, sosis, kaşar", 
         "image":"https://images2.imgbox.com/95/42/XM2FYwZs_o.jpg"
     },
     {
         "id":"11",
         "title":"Tavuklu Meksika Sandviç",
         "price":25,
-        "about":"", 
+        "about":"Kıvırcık, domates, ızgara tavuk", 
         "image":"https://images2.imgbox.com/59/0f/4mcMmI2c_o.jpg"
     },
     {

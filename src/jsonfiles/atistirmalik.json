@@ -24,70 +24,70 @@
         "id":"4",
         "title":"Kova Sosis",
         "price":28,
-        "about":"", 
+        "about":"Patates, kızarmış sosis", 
         "image":""
     },
     {
         "id":"5",
         "title":"Kova Special",
         "price":28,
-        "about":"", 
+        "about":"Patates, sosis, soğan halkası", 
         "image":""
     },
     {
         "id":"6",
         "title":"Kova Tavuk",
         "price":35,
-        "about":"", 
+        "about":"Özel soslu kemiksiz tavuk parçaları ve patates ile servis edilir.", 
         "image":""
     },
     {
         "id":"7",
         "title":"Atıştırmalık Kasa",
         "price":40,
-        "about":"", 
+        "about":"Tavuk parçaları, soğan halkası, sosis , patates", 
         "image":""
     },
     {
         "id":"8",
         "title":"Tavuk Dürüm",
         "price":32,
-        "about":"", 
+        "about":"Patates ile servis edilir.", 
         "image":""
     },
     {
         "id":"9",
         "title":"Tavuk Wrap",
         "price":34,
-        "about":"", 
+        "about":"Patates ile servis edilir.", 
         "image":""
     },
     {
         "id":"10",
         "title":"Köri Wrap",
         "price":34,
-        "about":"", 
+        "about":"Patates ile servis edilir.", 
         "image":""
     },
     {
         "id":"11",
         "title":"Kaşarlı Köri Wrap",
         "price":34,
-        "about":"", 
+        "about":"Patates ile servis edilir.", 
         "image":""
     },
     {
         "id":"12",
         "title":"Köfte Dürüm",
         "price":34,
-        "about":"", 
+        "about":"Patates ile servis edilir.", 
         "image":""
     },
     {
         "id":"13",
         "title":"Köfte Wrap",
         "price":42,
-        "about":"", 
+        "about":"Patates ile servis edilir.", 
         "image":""
     }
 ]
