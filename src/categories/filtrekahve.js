@@ -1,15 +1,15 @@
 import React from 'react';
 import "../App.css";
-import Data from "../jsonfiles/filtrekahve.json";
+import {filtrekahve} from "../jsonfiles/dataset";
 
-function filtrekahve() {
+function Filtrekahve() {
   return (
     <div>
     <div style={{marginLeft:'600px',marginTop:'10px'}}> Sipariş için kartların üzerine tıklayınız.</div>
      <div className="order-card-body">
 
        <div className="order-card-row">
-           {Data.map((post) => { 
+           {filtrekahve.map((post) => { 
             return <div key={post.id} className="order-card">
             <a href="/sandvicler" style={{textDecoration: 'none'}}>
               <div className="card-logo">
@@ -32,4 +32,4 @@ function filtrekahve() {
   )
 }
 
-export default filtrekahve
+export default Filtrekahve;

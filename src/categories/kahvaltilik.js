@@ -1,6 +1,6 @@
 import React from 'react';
 import "../App.css";
-import Data from "../jsonfiles/kahvaltilik";
+import {kahvaltilik} from "../jsonfiles/dataset";
 
 
 function Kahvaltilik() {
@@ -12,7 +12,7 @@ function Kahvaltilik() {
 
         <div className="order-card-row">
 
-          {Data.map((post) => {
+          {kahvaltilik.map((post) => {
               return(
                 <div key={post.id} className="order-card">
                 <a href="/kahvaltilik" style={{textDecoration: 'none'}}>

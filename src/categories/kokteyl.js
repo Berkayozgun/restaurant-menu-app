@@ -1,8 +1,8 @@
 import React from 'react';
 import "../App.css";
-import Data from "../jsonfiles/kokteyl.json";
+import {kokteyl} from "../jsonfiles/dataset";
 
-function kokteyl() {
+function Kokteyl() {
   return (
     <div>
     <div style={{marginLeft:'600px',marginTop:'10px'}}> Sipariş için kartların üzerine tıklayınız.</div>
@@ -10,7 +10,7 @@ function kokteyl() {
 
        <div className="order-card-row">
 
-         {Data.map((post) => { 
+         {kokteyl.map((post) => { 
             return <div key={post.id} className="order-card">
             <a href="/sandvicler" style={{textDecoration: 'none'}}>
               <div className="card-logo">
@@ -36,4 +36,4 @@ function kokteyl() {
   )
 }
 
-export default kokteyl
+export default Kokteyl

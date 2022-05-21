@@ -1,6 +1,6 @@
 import React from 'react';
 import "../App.css";
-import Data from "../jsonfiles/sandvicler";
+import {sandvicler } from "../jsonfiles/dataset";
 
 
 function Sandvicler() {
@@ -11,7 +11,7 @@ function Sandvicler() {
 
         <div className="order-card-row">
 
-          {Data.map((post) => { 
+          {sandvicler.map((post) => { 
             return <div key={post.id} className="order-card">
             <a href="/sandvicler" style={{textDecoration: 'none'}}>
               <div className="card-logo">

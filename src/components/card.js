@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Data from "../jsonfiles/menu";
+import {menu} from "../jsonfiles/dataset";
 
 function Card() {
   return (
@@ -11,7 +11,7 @@ function Card() {
       </div>
       <div className="card-row">
 
-        {Data.map((post) => { return ( 
+        {menu.map((post) => { return ( 
         
             <div className="card">
               <a href={post.address} style={{textDecoration: 'none'}}>

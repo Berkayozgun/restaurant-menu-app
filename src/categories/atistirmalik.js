@@ -1,8 +1,8 @@
 import React from 'react';
 import "../App.css";
-import Data from "../jsonfiles/atistirmalik.json";
+import {atistirmalik} from "../jsonfiles/dataset.js";
 
-function atistirmalik() {
+function Atistirmalik() {
   return (
     <div>
      <div style={{marginLeft:'600px',marginTop:'10px'}}> Sipariş için kartların üzerine tıklayınız.</div>
@@ -10,7 +10,7 @@ function atistirmalik() {
 
         <div className="order-card-row">
 
-        {Data.map((post) => {
+        {atistirmalik.map((post) => {
             return(
               <div key={post.id} className="order-card">
               <a href="/atistirmalik" style={{textDecoration: 'none'}}>
@@ -34,4 +34,4 @@ function atistirmalik() {
   )
 }
 
-export default atistirmalik
+export default Atistirmalik;

@@ -1,8 +1,8 @@
 import React from 'react';
 import "../App.css";
-import Data from '../jsonfiles/tatlilar.json';
+import {tatlilar} from '../jsonfiles/dataset';
 
-function tatlilar() {
+function Tatlilar() {
   return (
     <div>
      <div style={{marginLeft:'600px',marginTop:'10px'}}> Sipariş için kartların üzerine tıklayınız.</div>
@@ -11,7 +11,7 @@ function tatlilar() {
         <div className="order-card-row">
 
 
-        {Data.map((post) => {
+        {tatlilar.map((post) => {
             return <div key={post.id} className="order-card">
             <a href="/salatalar" style={{textDecoration: 'none'}}>
               <div className="card-logo">
@@ -34,4 +34,4 @@ function tatlilar() {
   )
 }
 
-export default tatlilar
+export default Tatlilar

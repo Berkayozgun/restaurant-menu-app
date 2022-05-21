@@ -1,15 +1,15 @@
 import React from 'react';
 import "../App.css";
-import Data from '../jsonfiles/sicakicecek.json';
+import {sicakicecek} from '../jsonfiles/dataset';
 
-function sicakicecek() {
+function Sicakicecek() {
   return (
     <div>
     <div style={{marginLeft:'600px',marginTop:'10px'}}> Sipariş için kartların üzerine tıklayınız.</div>
      <div className="order-card-body">
 
        <div className="order-card-row">
-          {Data.map((post) => { 
+          {sicakicecek.map((post) => { 
             return <div key={post.id} className="order-card">
             <a href="/sandvicler" style={{textDecoration: 'none'}}>
               <div className="card-logo">
@@ -26,4 +26,4 @@ function sicakicecek() {
   )
 }
 
-export default sicakicecek
+export default Sicakicecek;

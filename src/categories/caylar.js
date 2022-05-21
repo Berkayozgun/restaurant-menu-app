@@ -1,8 +1,8 @@
 import React from 'react';
-import Data from "../jsonfiles/caylar.json";
+import {caylar} from "../jsonfiles/dataset";
 import "../App.css";
 
-function caylar() {
+function Caylar() {
   return (
     <div>
      <div style={{marginLeft:'600px',marginTop:'10px'}}> Sipariş için kartların üzerine tıklayınız.</div>
@@ -10,7 +10,7 @@ function caylar() {
 
         <div className="order-card-row">
 
-        {Data.map((post) => {
+        {caylar.map((post) => {
               return(
                 <div key={post.id} className="order-card">
                 <a href="/kahvaltilik" style={{textDecoration: 'none'}}>
@@ -36,4 +36,4 @@ function caylar() {
   )
 }
 
-export default caylar
+export default Caylar

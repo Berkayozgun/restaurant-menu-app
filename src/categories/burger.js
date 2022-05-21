@@ -1,8 +1,8 @@
 import React from 'react';
 import "../App.css";
-import Data from '../jsonfiles/burger.json';
+import {burger} from '../jsonfiles/dataset';
 
-function burger() {
+function Burger() {
   return (
     <div>
      <div style={{marginLeft:'600px',marginTop:'10px'}}> Sipariş için kartların üzerine tıklayınız.</div>
@@ -10,7 +10,7 @@ function burger() {
 
         <div className="order-card-row">
 
-        {Data.map((post) => { 
+        {burger.map((post) => { 
             return <div key={post.id} className="order-card">
             <a href="/makarnalar" style={{textDecoration: 'none'}}>
               <div className="card-logo">
@@ -30,4 +30,4 @@ function burger() {
   )
 }
 
-export default burger
+export default Burger;

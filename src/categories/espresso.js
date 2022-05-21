@@ -1,8 +1,8 @@
 import React from 'react';
 import "../App.css";
-import Data from "../jsonfiles/espresso.json";
+import {espresso} from "../jsonfiles/dataset";
 
-function espresso() {
+function Espresso() {
   return (
     <div>
     <div style={{marginLeft:'600px',marginTop:'10px'}}> Sipariş için kartların üzerine tıklayınız.</div>
@@ -10,7 +10,7 @@ function espresso() {
 
        <div className="order-card-row">
 
-       {Data.map((post) => { 
+       {espresso.map((post) => { 
             return <div key={post.id} className="order-card">
             <a href="/sandvicler" style={{textDecoration: 'none'}}>
               <div className="card-logo">
@@ -34,4 +34,4 @@ function espresso() {
   )
 }
 
-export default espresso
+export default Espresso;

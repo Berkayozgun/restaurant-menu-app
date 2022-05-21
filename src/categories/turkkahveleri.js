@@ -1,7 +1,9 @@
 import React from 'react';
 import "../App.css";
-import Data from '../jsonfiles/turkkahveleri.json';
-function turkkahveleri() {
+import {turkkahveleri} from '../jsonfiles/dataset';
+
+
+function Turkkahveleri() {
   return (
     <div>
      <div style={{marginLeft:'600px',marginTop:'10px'}}> Sipariş için kartların üzerine tıklayınız.</div>
@@ -9,7 +11,7 @@ function turkkahveleri() {
 
         <div className="order-card-row">
 
-        {Data.map((post) => { 
+        {turkkahveleri.map((post) => { 
             return <div key={post.id} className="order-card">
             <a href="/sandvicler" style={{textDecoration: 'none'}}>
               <div className="card-logo">
@@ -36,4 +38,4 @@ function turkkahveleri() {
   )
 }
 
-export default turkkahveleri
+export default Turkkahveleri

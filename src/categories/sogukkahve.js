@@ -1,15 +1,15 @@
 import React from 'react';
 import "../App.css";
-import Data from "../jsonfiles/sogukkahve.json";
+import {sogukkahve} from "../jsonfiles/dataset";
 
-function sogukkahve() {
+function Sogukkahve() {
   return (
     <div>
     <div style={{marginLeft:'600px',marginTop:'10px'}}> Sipariş için kartların üzerine tıklayınız.</div>
      <div className="order-card-body">
 
        <div className="order-card-row">
-           {Data.map((post) => { 
+           {sogukkahve.map((post) => { 
             return <div key={post.id} className="order-card">
             <a href="/sandvicler" style={{textDecoration: 'none'}}>
               <div className="card-logo">
@@ -32,4 +32,4 @@ function sogukkahve() {
   )
 }
 
-export default sogukkahve
+export default Sogukkahve;
