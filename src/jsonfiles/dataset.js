@@ -19,6 +19,49 @@ import köfteque from "../images/anayemekler/köfte quasedilla.jpg";
 
 /*atistirmalik*/
 
+import sepetpatates from "../images/atistirmalik/sepet patates.jpg";
+import sepetsoganhalkasi from "../images/atistirmalik/sepet sogan halkasi.jpg";
+import kovapatates from "../images/atistirmalik/kova patates.jpg";
+import kovasosis    from "../images/atistirmalik/kova sosis.jpg";
+import kovaspecial from "../images/atistirmalik/special kova.jpg";
+import kovatavuk from "../images/atistirmalik/kova tavuk.jpg";
+import atistirmalikkasa  from "../images/atistirmalik/atıştırmalık kasa.jpg";
+import tavukdurum from "../images/atistirmalik/tavuk dürüm.jpg";
+import tavukwrap from "../images/atistirmalik/tavuk wrap.jpg";
+import koriwrap from "../images/atistirmalik/köri wrap.jpeg";
+import kasarlikoriwrap from "../images/atistirmalik/kaşarlı köri wrap.jpg";
+import köftedurum from "../images/atistirmalik/köfte dürüm.jpg";
+import köftewrap from "../images/atistirmalik/köfte wrap.jpg";
+
+/* burger */
+
+/* caylar */
+
+/* espresso */
+
+/* filtrekahve */
+
+/* kahvaltilik*/
+
+/* kokteyl*/
+
+/* makarnalar */
+
+/* menu */
+
+/* mesrubat */
+
+/* salatalar*/
+
+/* sandvicler*/
+
+/* sicakicecek */
+
+/* sogukkahve*/
+
+/* tatlilar*/
+
+/* turkkahveleri*/
 
 export const anayemekler=[
     {
@@ -142,91 +185,91 @@ export const atistirmalik=[
         "title":"Sepet Patates",
         "price":15,
         "about":"", 
-        "image":"https://images2.imgbox.com/ed/60/JvCz0LML_o.jpg"
+        "image":sepetpatates
     },
     {
         "id":"2",
         "title":"Sepet Soğan Halkası",
         "price":15,
         "about":"", 
-        "image":"https://images2.imgbox.com/1d/f4/SRNAsHnD_o.jpg"
+        "image":sepetsoganhalkasi
     },
     {
         "id":"3",
         "title":"Kova Patates",
         "price":25,
         "about":"", 
-        "image":"https://images2.imgbox.com/c4/01/NOAgIthn_o.jpg"
+        "image":kovapatates 
     },
     {
         "id":"4",
         "title":"Kova Sosis",
         "price":28,
         "about":"Patates, kızarmış sosis", 
-        "image":"https://images2.imgbox.com/62/a0/dOk9Gpv4_o.jpg"
+        "image":kovasosis
     },
     {
         "id":"5",
         "title":"Kova Special",
         "price":28,
         "about":"Patates, sosis, soğan halkası", 
-        "image":"https://images2.imgbox.com/b0/98/QYU80D09_o.jpg"
+        "image":kovaspecial
     },
     {
         "id":"6",
         "title":"Kova Tavuk",
         "price":35,
         "about":"Özel soslu kemiksiz tavuk parçaları ve patates ile servis edilir.", 
-        "image":"https://images2.imgbox.com/80/69/Za3bS88T_o.jpg"
+        "image":kovatavuk
     },
     {
         "id":"7",
         "title":"Atıştırmalık Kasa",
         "price":40,
         "about":"Tavuk parçaları, soğan halkası, sosis , patates", 
-        "image":"https://images2.imgbox.com/ea/94/YAsvnOOG_o.jpg"
+        "image":atistirmalikkasa
     },
     {
         "id":"8",
         "title":"Tavuk Dürüm",
         "price":32,
         "about":"Patates ile servis edilir.", 
-        "image":"https://images2.imgbox.com/b4/ec/11Fu9ZCQ_o.jpg"
+        "image":tavukdurum
     },
     {
         "id":"9",
         "title":"Tavuk Wrap",
         "price":34,
         "about":"Patates ile servis edilir.", 
-        "image":"https://images2.imgbox.com/00/dd/SfJNG1CG_o.jpg"
+        "image":tavukwrap
     },
     {
         "id":"10",
         "title":"Köri Wrap",
         "price":34,
         "about":"Patates ile servis edilir.", 
-        "image":"https://images2.imgbox.com/6c/15/Axl03HbI_o.jpeg"
+        "image":koriwrap
     },
     {
         "id":"11",
         "title":"Kaşarlı Köri Wrap",
         "price":34,
         "about":"Patates ile servis edilir.", 
-        "image":"https://images2.imgbox.com/fa/4c/E7hotRMv_o.jpg"
+        "image":kasarlikoriwrap
     },
     {
         "id":"12",
         "title":"Köfte Dürüm",
         "price":34,
         "about":"Patates ile servis edilir.", 
-        "image":"https://images2.imgbox.com/bf/bf/kPHN3Slj_o.jpg"
+        "image":köftedurum
     },
     {
         "id":"13",
         "title":"Köfte Wrap",
         "price":42,
         "about":"Patates ile servis edilir.", 
-        "image":"https://images2.imgbox.com/f5/b0/HrE0XVWF_o.jpg"
+        "image":köftewrap
     }
 ]
 
