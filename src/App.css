@@ -138,10 +138,10 @@
 }
 
 .box {
-  width: 25%;
-  height:25%;
+  width: 30%;
+  height:60%;
   margin: 0 auto;
-  margin-top:10%;
+  margin-top:8%;
   background: #fff;
   border-radius: 15%;
   padding: 25px;
@@ -162,4 +162,20 @@
   text-align: center;
   border: 1px solid #999;
   font-size: 20px;
+}
+
+.popup-title{
+  margin:auto;
+  width:100%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.popup-pic{
+  margin: auto;
+  margin-top: 5%;
+  margin-left:5%;
+  width:50%;
+  height: 50%;
+  border-radius: 10%;
 }
