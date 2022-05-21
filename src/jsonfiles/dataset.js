@@ -1,115 +1,137 @@
+/*ana yemekler*/
+
+import guvecsoyatavuk from "../images/anayemekler/guvec soya tavuk.jpg"
+import guveckoritavuk from "../images/anayemekler/guvec kori tavuk.jpg"
+import guveckremalitavuk from "../images/anayemekler/guvec kremali tavuk.jpg"
+import guvecbarbekutavuk from "../images/anayemekler/guvec barbeku soslu tavuk.jpg"
+import guvecballihardalli from "../images/anayemekler/guvec balli hardalli tavuk.jpg"
+import guvecmeksikatavuk from "../images/anayemekler/guvec meksika soslu tavuk.jpg"
+import guveckasarlimantar from "../images/anayemekler/güvec kasarli mantar.jpg";
+import guvecmantartavuk from "../images/anayemekler/guvec mantar soslu tavuk.jpg";
+import izgaratavuk from "../images/anayemekler/ızgara tavuk.jpg";
+import specialtavuk from "../images/anayemekler/özel soslu ızgara tavuk.jpg";
+import sinitzel from "../images/anayemekler/şinitzel.jpg";
+import guvecsoslukofte from "../images/anayemekler/güveç soslu köfte.jpg";
+import koftetabagi from "../images/anayemekler/köfte tabağı.jpg";
+import karisikizgara from "../images/anayemekler/karışık ızgara.jpg";
+import tavukque from "../images/anayemekler/tavuk quasedilla.jpg";
+import köfteque from "../images/anayemekler/köfte quasedilla.jpg";
+
+/*atistirmalik*/
+
+
 export const anayemekler=[
     {
         "id":"1",
         "title":"Güveç Soya Soslu Tavuk",
         "price":40,
         "about":"",
-        "image":""
+        "image":guvecsoyatavuk
     },
     {
         "id":"2",
         "title":"Güveç Köri Soslu Tavuk",
         "price":40,
         "about":"",
-        "image":""
+        "image":guveckoritavuk
     },
     {
         "id":"3",
         "title":"Güveç Kremalı Tavuk",
         "price":40,
         "about":"",
-        "image":""
+        "image":guveckremalitavuk
     },
     {
         "id":"4",
         "title":"Güveç Barbekü Soslu Tavuk",
         "price":40,
         "about":"",
-        "image":""
+        "image":guvecbarbekutavuk
     },
     {
         "id":"5",
         "title":"Güveç Ballı Hardallı Tavuk",
         "price":40,
         "about":"",
-        "image":""
+        "image":guvecballihardalli
     },
     {
         "id":"6",
         "title":"Güveç Meksika Soslu Tavuk",
         "price":40,
         "about":"",
-        "image":""
+        "image":guvecmeksikatavuk
     },
     {
-        "id":"8",
+        "id":"7",
         "title":"Güveç Kaşarlı Mantar",
         "price":40,
         "about":"",
-        "image":""
+        "image":guveckasarlimantar
     },
     {
-        "id":"9",
+        "id":"8",
         "title":"Güveç Mantar Soslu Tavuk",
         "price":40,
         "about":"",
-        "image":""
+        "image":guvecmantartavuk
     },
     {
-        "id":"10",
+        "id":"9",
         "title":"Izgara Tavuk",
         "price":40,
         "about":"Patates ve salata ile servis edilir.",
-        "image":""
+        "image":izgaratavuk
     },
     {
-        "id":"11",
+        "id":"10",
         "title":"Özel Soslu Izgara Tavuk",
         "price":38,
         "about":"Karamelize mantar ve özel krema sos ile salata ve patates ile servis edilir.",
-        "image":""
+        "image":specialtavuk
     },
     {
-        "id":"12",
+        "id":"11",
         "title":"Şinitzel",
         "price":37,
         "about":"Patates ve salata ile servis edilir.",
-        "image":""
+        "image":sinitzel
     },
     {
-        "id":"13",
+        "id":"12",
         "title":"Güveç Soslu Köfte",
         "price":42,
         "about":"Özel krema sos ile servis edilir.",
-        "image":""
+        "image":guvecsoslukofte
     },
     {
-        "id":"14",
+        "id":"13",
         "title":"Köfte Tabağı",
         "price":40,
         "about":"Patates ve salata ile servis edilir.",
-        "image":""
+        "image":koftetabagi
     },
     {
-        "id":"15",
+        "id":"14",
         "title":"Karışık Izgara",
         "price":45,
         "about":"3 adet köfte ve 1 adet ızgara tavuk, salata ve patates ile servis edilir.",
-        "image":""
+        "image":karisikizgara
     },
     {
-        "id":"16",
+        "id":"15",
         "title":"Tavuk Quasedilla",
         "price":42,
         "about":"Patates ile servis edilir.",
-        "image":""
+        "image":tavukque
     },
     {
-        "id":"17",
+        "id":"16",
         "title":"Köfte Quasedilla",
         "price":50,
         "about":"Patates ile servis edilir.",
-        "image":""
+        "image":köfteque
     }
 
 ];
