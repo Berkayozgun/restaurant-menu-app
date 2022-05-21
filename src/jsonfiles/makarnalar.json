@@ -4,56 +4,41 @@
         "title":"Napoliten",
         "price":25,
         "about":"Penne makarna, napoliten sos", 
-        "image":""
+        "image":"https://images2.imgbox.com/6c/9f/K6aGDWsf_o.jpg"
     },
     {
         "id":"2",
         "title":"Arabiata",
         "price":28,
         "about":"Penne makarna, acı arabiata sos, jalepon biberi", 
-        "image":""
+        "image":"https://images2.imgbox.com/3c/34/rCJvA4uC_o.jpg"
     },
     {
         "id":"3",
         "title":"Alfredo",
         "price":35,
         "about":"Penne makarna, krema, mantar, tavuk, parmesan", 
-        "image":""
+        "image":"https://images2.imgbox.com/7a/f1/sid4U0Z7_o.jpg"
     },
     {
         "id":"4",
         "title":"Bolognez",
         "price":40,
         "about":"Penne makarna, bolognez sos, kıyma", 
-        "image":""
+        "image":"https://images2.imgbox.com/94/16/hvAxQqgL_o.jpg"
     },
     {
         "id":"5",
         "title":"Ton Balıklı ve Sebzeli",
         "price":35,
         "about":"Penne makarna, kapya biberi, ton balığı", 
-        "image":""
+        "image":"https://images2.imgbox.com/e6/75/fthQKpKb_o.jpg"
     },
     {
         "id":"6",
         "title":"Mantı",
         "price":35,
         "about":"", 
-        "image":""
-    },
-    {
-        "id":"7",
-        "title":"Arabiata mantı",
-        "price":35,
-        "about":"", 
-        "image":""
-    },
-    {
-        "id":"8",
-        "title":"Özel Special Soslu Mantı",
-        "price":35,
-        "about":"", 
-        "image":""
+        "image":"https://images2.imgbox.com/f2/61/MC5flrGI_o.jpg"
     }
-    
 ]
