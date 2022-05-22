@@ -35,31 +35,152 @@ import köftewrap from "../images/atistirmalik/köfte wrap.jpg";
 
 /* burger */
 
+import tavukburger from "../images/burger/tavukburger.jpg";
+import dubletavuk from "../images/burger/duble tavuk burger.jpg";
+import tacotavuk from "../images/burger/taco tavuk.jpg";
+import dubletacotavuk from "../images/burger/duble taco tavuk.jpg";
+import kofteburger from "../images/burger/köfte burger.jpg";
+import dublekofte from "../images/burger/duble köfte burger.png";
+import tacokofte from "../images/burger/taco köfte.jpg";
+import dubletacokofte from "../images/burger/duble taco köfte.jpg";
+
 /* caylar */
+
+import bardakcay from "../images/caylar/bardakcay.jpg";
+import fincancay from "../images/caylar/fincancay.jpg";
+import kusburnu from "../images/caylar/kuşburnu çay.jpg";
+import adacayi from "../images/caylar/adacayi.jpg";
+import ihlamur from "../images/caylar/ihlamur.jpg";
+import papatya from "../images/caylar/papatya.jpg";
+import kiscayi from "../images/caylar/kiscayi.jpg";
+import yesilcay from "../images/caylar/yesilcay.jpg";
+import nanelimon from "../images/caylar/nanelimon.jpg";
+import tropikal from "../images/caylar/tropikal.jpg";
+import atomcayi from "../images/caylar/atomcayi.jpg";
 
 /* espresso */
 
+import sadegranul from "../images/espresso/sade granül.jpg";
+import sutlugranul from "../images/espresso/sütlü granül.jpg";
+import snespresso from "../images/espresso/snespresso.jpg";
+import dbespresso from "../images/espresso/dbespresso.jpg";
+import espressomach from "../images/espresso/espressomach.jpg";
+import espressocon from "../images/espresso/espressocon.jpg";
+import americano from "../images/espresso/americano.jpg";
+import latte from "../images/espresso/latte.jpg";
+import flatwhite from "../images/espresso/flatwhite.jpg";
+import coffeecream from "../images/espresso/coffeecream.jpg";
+import mocha from "../images/espresso/mocha.jpg";
+import wmocha from "../images/espresso/wmocha.jpg";
+import caramelmach from "../images/espresso/caramelmach.jpg";
+import coffeemiel from  "../images/espresso/coffeemiel.jpg";
+import chaitea from "../images/espresso/chaitea.jpg";
+import irishlatte from  "../images/espresso/irishlatte.jpg";
+
 /* filtrekahve */
+
+import filtrekahve2 from "../images/filtrekahve/filtrekahve.jpg";
+import misto from "../images/filtrekahve/misto.jpg";
+import santos from "../images/filtrekahve/santos.jpg";
+import yemen from "../images/filtrekahve/yemen.jpg";
+import arabica from "../images/filtrekahve/arabica.jpg";
+import costarico from "../images/filtrekahve/costarico.jpg";
+import guatemala from "../images/filtrekahve/guatemala.jpg";
 
 /* kahvaltilik*/
 
+import kahvaltitabagi from "../images/kahvaltilik/kahvalti-tabagi.jpeg";
+import serpme from "../images/kahvaltilik/serpme-kahvalti.jpg";
+import serpmelux from "../images/kahvaltilik/serpme-kahvalti-lux.jpg";
+import sahandayum from "../images/kahvaltilik/sahanda-yumurta.jpg";
+import sucukluyum from "../images/kahvaltilik/sucuklu-yumurta.jpg";
+import firinmen from "../images/kahvaltilik/fırın-menemen.jpg";
+import kasarmen from "../images/kahvaltilik/kaşarlı-menemen.jpg";
+import sucukmen from "../images/kahvaltilik/sucuklu-menemen.jpg";
+import omlet from "../images/kahvaltilik/omlet.jpg";
+import kasaromlet from "../images/kahvaltilik/kaşarlı-omlet.jpg";
+import tortkasar from "../images/kahvaltilik/kaşarlı-tortilla.jpg";
+import tortkarisik from "../images/kahvaltilik/karışık-tortilla.jpg";
+import kahvaltitost from "../images/kahvaltilik/kahvaltı-tost.jpg";
+import kasartost from "../images/kahvaltilik/kaşarlı-tost.jpg";
+import sucuktost from "../images/kahvaltilik/sucuklu-tost.jpg";
+import karisiktost from "../images/kahvaltilik/karışık-tost.jpg";
+import kavurtost from "../images/kahvaltilik/kavurma-kaşar-tost.jpg";
+import jumbo from "../images/kahvaltilik/jumbo-tost.jpg";
+import bomba from "../images/kahvaltilik/bomba-tost.jpg";
+import nutella from "../images/kahvaltilik/nutella-tost.jpg";
+import specialtost from "../images/kahvaltilik/special-tost.jpg";
+
 /* kokteyl*/
+
+import limonata from "../images/kokteyl/limonata.jpg";
+import banacoc from "../images/kokteyl/banacoc.jpg";
+import portakal from "../images/kokteyl/portakal.jpg";
+import sunset from "../images/kokteyl/sunset.jpg";
+import berry from "../images/kokteyl/berry.jpg";
+import mojito from "../images/kokteyl/mojito.jpg";
+import rainbow from "../images/kokteyl/rainbow.jpg";
+import masmavi from "../images/kokteyl/masmavi.jpg";
+import karadut from "../images/kokteyl/karadut.jpg";
+import sulugoz from "../images/kokteyl/sulugöz.jpg";
+import limilim from "../images/kokteyl/limilim.jpg";
+import tipitip from "../images/kokteyl/tipitip.jpg";
+import cindy from "../images/kokteyl/cindy.jpg";
+import buzkivi from "../images/kokteyl/buzkivi.jpg";
+import buzberry from "../images/kokteyl/buzberry.jpg";
+import buzananas from "../images/kokteyl/buzananas.jpg";
 
 /* makarnalar */
 
+import napoliten from "../images/makarnalar/napoliten.jpg";
+import arabiata from "../images/makarnalar/arabiata.jpg";
+import alfredo from "../images/makarnalar/alfredo.jpg";
+import bolognez from "../images/makarnalar/bolognez.jpg";
+import manti from "../images/makarnalar/mantı.jpg";
+import tonbalikli from "../images/makarnalar/tonbalikli.jpg";
+
 /* menu */
+
+import kahvaltilikMenu from "../images/menu/kahvalti-menu.jpg";
+import sandviclerMenu from "../images/menu/sandwich-menu.jpg";
+import atistirmalikMenu from "../images/menu/atistirmalik-menu.jpg";
+import makarnalarMenu from "../images/menu/makarnalar-menu.jpg";
+import salatalarMenu from "../images/menu/salatalar-menu.jpg";
+import burgerMenu from "../images/menu/hamburger-menu.jpg";
+import anayemeklerMenu from "../images/menu/anayemekler-menu.jpg";
+import tatlilarMenu from "../images/menu/tatlilar-menu.jpg";
+import caylarMenu from "../images/menu/caylar-menu.jpg";
+import turkkahveleriMenu from "../images/menu/turkkahveleri-menu.jpg";
+import espressoMenu from "../images/menu/espresso-menu.jpg";
+import filtrekahveMenu from "../images/menu/worldcoffee-menu.jpg";
+import sicakicecekMenu from "../images/menu/sicakicecek-menu.jpg";
+import sogukkahveMenu from "../images/menu/sogukkahveler-menu.jpg";
+import kokteylMenu from "../images/menu/kokteyl-menu.jpg";
+import mesrubatMenu from "../images/menu/mesrubat-menu.jpg";
 
 /* mesrubat */
 
+
+
 /* salatalar*/
+
+
 
 /* sandvicler*/
 
+
+
 /* sicakicecek */
+
+
 
 /* sogukkahve*/
 
+
+
 /* tatlilar*/
+
+
 
 /* turkkahveleri*/
 
@@ -279,56 +400,56 @@ export const burger=[
         "title":"Tavuk Burger",
         "price":34,
         "about":"Patates ile servis edilir.",
-        "image":"https://images2.imgbox.com/52/9a/FSTtCwTE_o.jpg"
+        "image":tavukburger
     },
     {
         "id":"2",
         "title":"Duble Tavuk Burger",
         "price":42,
         "about":"Patates ile servis edilir.",
-        "image":"https://images2.imgbox.com/d3/0e/zjojJ6OM_o.jpg"
+        "image":dubletavuk
     },
     {
         "id":"3",
         "title":"Taco Tavuk Burger",
         "price":35,
         "about":"Patates ile servis edilir.",
-        "image":"https://images2.imgbox.com/d5/46/QfFs5h8P_o.jpg"
+        "image":tacotavuk
     },
     {
         "id":"4",
         "title":"Duble Taco Tavuk Burger",
         "price":45,
         "about":"Patates ile servis edilir.",
-        "image":"https://images2.imgbox.com/38/ac/ZsAGWVmk_o.jpg"
+        "image":dubletacotavuk
     },
     {
         "id":"5",
         "title":"Köfte Burger",
         "price":42,
         "about":"Patates ile servis edilir.",
-        "image":"https://images2.imgbox.com/41/9f/00mlqt2t_o.jpg"
+        "image":kofteburger
     },
     {
         "id":"6",
         "title":"Duble Köfte Burger",
         "price":55,
         "about":"Patates ile servis edilir.",
-        "image":"https://images2.imgbox.com/a8/34/dbisdipa_o.png"
+        "image":dublekofte
     },
     {
         "id":"7",
         "title":"Taco Köfte Burger",
         "price":44,
         "about":"Patates ile servis edilir.",
-        "image":"https://images2.imgbox.com/bb/7b/RiS37uu4_o.jpg"
+        "image":tacokofte
     },
     {
         "id":"8",
         "title":"Duble Taco Köfte Burger",
         "price":58,
         "about":"Patates ile servis edilir.",
-        "image":"https://images2.imgbox.com/dc/1d/iXK8EQSc_o.jpg"
+        "image":dubletacokofte
     }
 ];
 
@@ -338,77 +459,77 @@ export const caylar=[
         "title":"Bardak Çay",
         "price":6,
         "about":"",
-        "image":""
+        "image":bardakcay
     },
     {
         "id":"2",
         "title":"Fincan Çay",
         "price":10,
         "about":"",
-        "image":""
+        "image":fincancay
     },
     {
         "id":"3",
         "title":"Kuşburnu Çayı",
         "price":21,
         "about":"",
-        "image":""
+        "image":kusburnu
     },
     {
         "id":"4",
         "title":"Ada Çayı",
         "price":21,
         "about":"",
-        "image":""
+        "image":adacayi
     },
     {
         "id":"5",
         "title":"Ihlamur Çayı",
         "price":21,
         "about":"",
-        "image":""
+        "image":ihlamur
     },
     {
         "id":"6",
         "title":"Papatya Çayı",
         "price":21,
         "about":"",
-        "image":""
+        "image":papatya
     },
     {
         "id":"7",
         "title":"Kış Çayı",
         "price":24,
         "about":"",
-        "image":""
+        "image":kiscayi
     },
     {
         "id":"8",
         "title":"Yeşil Çay",
         "price":24,
         "about":"",
-        "image":""
+        "image":yesilcay
     },
     {
         "id":"9",
         "title":"Nane Limon Çayı",
         "price":20,
         "about":"",
-        "image":""
+        "image":nanelimon
     },
     {
         "id":"10",
         "title":"Tropikal Çay",
         "price":22,
         "about":"",
-        "image":""
+        "image":tropikal
     },
     {
         "id":"11",
         "title":"Atom Çayı",
         "price":27,
         "about":"Ihlamur, papatya, ada çayı, karabiber, limon, bal, zencefil",
-        "image":""
+        "image":atomcayi
     }
 ];
 
@@ -418,112 +539,112 @@ export const espresso=[
         "title":"Sade Granül Kahve",
         "price":16,
         "about":"",
-        "image":""
+        "image":sadegranul
     },
     {
         "id":"2",
         "title":"Sütlü Granül Kahve",
         "price":17,
         "about":"",
-        "image":""
+        "image":sutlugranul
     },
     {
         "id":"3",
         "title":"Single Espresso",
         "price":15,
         "about":"",
-        "image":""
+        "image":snespresso
     },
     {
         "id":"4",
         "title":"Duble Espresso",
         "price":18,
         "about":"",
-        "image":""
+        "image":dbespresso
     },
     {
         "id":"5",
         "title":"Espresso Macchiato",
         "price":18,
         "about":"",
-        "image":""
+        "image":espressomach
     },
     {
         "id":"6",
         "title":"Espresso Conpana",
         "price":18,
         "about":"",
-        "image":""
+        "image":espressocon
     },
     {
         "id":"7",
         "title":"Americano",
         "price":18,
         "about":"",
-        "image":""
+        "image":americano
     },
     {
         "id":"8",
         "title":"Latte",
         "price":20,
         "about":"",
-        "image":""
+        "image":latte
     },
     {
         "id":"9",
         "title":"Flat White",
         "price":21,
         "about":"",
-        "image":""
+        "image":flatwhite
     },
     {
         "id":"10",
         "title":"Coffee Cream",
         "price":20,
         "about":"",
-        "image":""
+        "image":coffeecream
     },
     {
         "id":"11",
         "title":"Mocha",
         "price":21,
         "about":"",
-        "image":""
+        "image":mocha
     },
     {
         "id":"12",
         "title":"White Mocha",
         "price":21,
         "about":"",
-        "image":""
+        "image":wmocha
     },
     {
         "id":"13",
         "title":"Caramel Macchiato",
         "price":21,
         "about":"",
-        "image":""
+        "image":caramelmach
     },
     {
         "id":"14",
         "title":"Coffee Miel",
         "price":21,
         "about":"",
-        "image":""
+        "image":coffeemiel
     },
     {
         "id":"15",
         "title":"Chai Tea Latte",
         "price":21,
         "about":"",
-        "image":""
+        "image":chaitea
     },
     {
         "id":"16",
         "title":"Irish Cream Latte",
         "price":25,
         "about":"",
-        "image":""
+        "image":irishlatte
     }
 
 ];
@@ -534,49 +655,49 @@ export const filtrekahve=[
         "title":"Filtre Kahve",
         "price":18,
         "about":"",
-        "image":""
+        "image":filtrekahve2
     },
     {
         "id":"2",
         "title":"Misto",
         "price":20,
         "about":"Sütlü",
-        "image":""
+        "image":misto
     },
     {
         "id":"3",
         "title":"Santos",
         "price":20,
         "about":"",
-        "image":""
+        "image":santos
     },
     {
         "id":"4",
         "title":"Yemen",
         "price":20,
         "about":"",
-        "image":""
+        "image":yemen
     },
     {
         "id":"5",
         "title":"Arabica",
         "price":20,
         "about":"",
-        "image":""
+        "image":arabica
     },
     {
         "id":"6",
         "title":"Costa Rico",
         "price":20,
         "about":"",
-        "image":""
+        "image":costarico
     },
     {
         "id":"7",
-        "title":"Guetamala",
+        "title":"Guatemala",
         "price":20,
         "about":"",
-        "image":""
+        "image":guatemala
     }
 ];
 
@@ -586,63 +707,63 @@ export const kahvaltilik=[
         "title":"Kahvaltı Tabağı",
         "price":40,
         "about":"Beyaz peynir, kaşar peynir, salam, yeşil zeytin, siyah zeytin, bal, reçel, tereyağı, nutella, haşlanmış yumurta, domates, salatalık, biber.",
-        "image":"https://images2.imgbox.com/5f/fa/NTIb9C47_o.jpeg"
+        "image":kahvaltitabagi
     },
     {
         "id":"2",
         "title":"Serpme Kahvaltı",
         "price":100,
         "about":"Beyaz peynir, kaşar peynir, çeçil peynir, salam, ezme, yeşil zeytin, siyah zeytin, bal, reçel, tereyağı, nutella, salata, patates, soğan halkası, sosis, sucuklu yumurta, yumurtalı ekmek, termos çay.",
-        "image":"https://images2.imgbox.com/e5/97/FSNZgcZK_o.jpg"
+        "image":serpme
     },
     {
         "id":"3",
         "title":"Serpme Lüx Kahvaltı",
         "price":140,
         "about":"Beyaz peynir, kaşar peynir, çeçil peynir, cheddar peyniri, ezme, yeşil zeytin, siyah zeytin, bal, reçel, tereyağı, nutella, roka, kavurma, helva, kuru kayısı, ceviz, meyve, soğan halkası, sosis, patates, yumurtalı ekmek, fırın menemen, gözleme, termos çay.",
-        "image":"https://images2.imgbox.com/c6/46/0u9Hvf3k_o.jpg"
+        "image":serpmelux
     },
     {
         "id":"4",
         "title":"Sahanda yumurta",
         "price":15,
         "about":"",
-        "image":"https://images2.imgbox.com/1e/8d/saS5Ic2Q_o.jpg"
+        "image":sahandayum
     },
     {
         "id":"5",
         "title":"Sucuklu yumurta",
         "price":17,
         "about":"2 adet yumurta , sucuk, tereyağı , kekik ,pul biber kullanılır.",
-        "image":"https://images2.imgbox.com/53/3e/ZfUH30PW_o.jpg"
+        "image":sucukluyum
     },
     {
         "id":"6",
         "title":"Fırın Menemen",
         "price":24,
         "about":"",
-        "image":"https://images2.imgbox.com/dd/2b/vSJ9klJE_o.jpg"
+        "image":firinmen
     },
     {
         "id":"7",
         "title":"Kaşarlı Menemen",
         "price":24,
         "about":"",
-        "image":"https://images2.imgbox.com/24/c8/c9eG2101_o.jpg"
+        "image":kasarmen
     },
     {
         "id":"8",
         "title":"Sucuklu Menemen",
         "price":25,
         "about":"",
-        "image":"https://images2.imgbox.com/9b/67/rzNcCoH0_o.jpg"
+        "image":sucukmen
     },
     {
         "id":"9",
         "title":"Omlet",
         "price":18,
         "about":"",
-        "image":"https://images2.imgbox.com/b6/92/7LUbgx81_o.jpg"
+        "image":omlet
 
     },
     {
@@ -650,42 +771,42 @@ export const kahvaltilik=[
         "title":"Kaşarlı Omlet",
         "price":20,
         "about":"",
-        "image":"https://images2.imgbox.com/e8/01/TecvSxhB_o.jpg"
+        "image":kasaromlet
     },
     {
         "id":"11",
         "title":"Tortilla Kaşarlı Gözleme",
         "price":25,
         "about":"",
-        "image":"https://images2.imgbox.com/31/15/t4TT5tCU_o.jpg"
+        "image":tortkasar
     },
     {
         "id":"12",
         "title":"Tortilla Karışık Gözleme",
         "price":25,
         "about":"",
-        "image":"https://images2.imgbox.com/a1/84/XL9TiAD8_o.jpg"
+        "image":tortkarisik
     },
     {
         "id":"13",
         "title":"Kahvaltı Tost",
         "price":15,
         "about":"Beyaz peynir, domates",
-        "image":"https://images2.imgbox.com/f5/59/NE52rXWP_o.jpg"
+        "image":kahvaltitost
     },
     {
         "id":"14",
         "title":"Kaşarlı Tost",
         "price":13,
         "about":"",
-        "image":"https://images2.imgbox.com/9d/4d/F81q9XMT_o.jpg"
+        "image":kasartost
     },
     {
         "id":"15",
         "title":"Sucuklu Tost",
         "price":17,
         "about":"",
-        "image":"https://images2.imgbox.com/97/43/lzregkQi_o.jpg"
+        "image":sucuktost
 
     },
     {
@@ -693,14 +814,14 @@ export const kahvaltilik=[
         "title":"Karışık Tost",
         "price":15,
         "about":"Sucuk, kaşar",
-        "image":"https://images2.imgbox.com/52/e0/BkNRsBRw_o.jpg"
+        "image":karisiktost
     },
     {
         "id":"17",
         "title":"Kavurma Kaşar Tost",
         "price":20,
         "about":"Kavurma, kaşar",
-        "image":"https://images2.imgbox.com/26/cf/BzzxWREr_o.jpg"
+        "image":kavurtost
 
     },
     {
@@ -708,28 +829,28 @@ export const kahvaltilik=[
         "title":"Jumbo Tost",
         "price":22,
         "about":"Kaşar, sosis, domates, salça, sucuk",
-        "image":"https://images2.imgbox.com/a3/53/qC1LmRtJ_o.jpg"
+        "image":jumbo
     },
     {
         "id":"19",
         "title":"Bomba Tost",
         "price":23,
         "about":"Kaşar, sosis, domates, patates, salça, sucuk",
-        "image":"https://images2.imgbox.com/fb/96/cwZG131o_o.jpg"
+        "image":bomba
     },
     {
         "id":"20",
         "title":"Nutella Tost",
         "price":20,
         "about":"",
-        "image":"https://images2.imgbox.com/08/4f/GENW2KFn_o.jpg"
+        "image":nutella
     },
     {
         "id":"21",
         "title":"Special Tost",
         "price":25,
         "about":"Nutella, muz",
-        "image":"https://images2.imgbox.com/ff/cc/fC3IdCkB_o.jpg"
+        "image":specialtost
     }
 ];
 
@@ -739,112 +860,112 @@ export const kokteyl=[
         "title":"Limonata",
         "price":21,
         "about":"",
-        "image":""
+        "image":limonata
     },
     {
         "id":"2",
         "title":"Banacoc",
         "price":24,
         "about":"Muz, hindistan cevizi, süt",
-        "image":""
+        "image":banacoc
     },
     {
         "id":"3",
         "title":"Sıkma Portakal",
         "price":23,
         "about":"",
-        "image":""
+        "image":portakal
     },
     {
         "id":"4",
         "title":"Sunset",
         "price":24,
         "about":"Ananas, portakal, nar suyu",
-        "image":""
+        "image":sunset
     },
     {
         "id":"5",
         "title":"Berry",
         "price":24,
         "about":"Yaban mersini, vişne suyu",
-        "image":""
+        "image":berry
     },
     {
         "id":"6",
         "title":"Soft Mojito",
         "price":24,
         "about":"",
-        "image":""
+        "image":mojito
     },
     {
         "id":"7",
         "title":"Rengarenk",
         "price":24,
         "about":"",
-        "image":""
+        "image":rainbow
     },
     {
         "id":"8",
         "title":"Masmavi",
         "price":24,
         "about":"Turunç, ananas, elma, portakal",
-        "image":""
+        "image":masmavi
     },
     {
         "id":"9",
         "title":"Karadut",
         "price":24,
         "about":"Karadut püresi",
-        "image":""
+        "image":karadut
     },
     {
         "id":"10",
         "title":"Sulugöz",
         "price":25,
         "about":"Kivi, ananas, dondurma, limon",
-        "image":""
+        "image":sulugoz
     },
     {
         "id":"11",
         "title":"Limilim",
         "price":25,
         "about":"Limonata, dondurma, ananas suyu",
-        "image":""
+        "image":limilim
     },
     {
         "id":"12",
         "title":"Tipitip",
         "price":25,
         "about":"Karpuz, kavun, elma suyu, dondurma",
-        "image":""
+        "image":tipitip
     },
     {
         "id":"13",
         "title":"Cindy",
         "price":24,
         "about":"Portakal, ananas, vişne suyu",
-        "image":""
+        "image":cindy
     },
     {
         "id":"14",
         "title":"Buz Kivi",
         "price":21,
         "about":"Kivi püresi, ananas suyu",
-        "image":""
+        "image":buzkivi
     },
     {
         "id":"15",
         "title":"Buz Böğürtlen",
         "price":21,
         "about":"Böğürtlen püresi, vişne suyu",
-        "image":""
+        "image":buzberry
     },
     {
         "id":"16",
         "title":"Buz Ananas",
         "price":21,
         "about":"Ananas püresi, ananas suyu",
-        "image":""
+        "image":buzananas
     }
 ];
 
@@ -854,42 +975,42 @@ export const makarnalar=[
         "title":"Napoliten",
         "price":25,
         "about":"Penne makarna, napoliten sos", 
-        "image":"https://images2.imgbox.com/6c/9f/K6aGDWsf_o.jpg"
+        "image":napoliten
     },
     {
         "id":"2",
         "title":"Arabiata",
         "price":28,
         "about":"Penne makarna, acı arabiata sos, jalepon biberi", 
-        "image":"https://images2.imgbox.com/3c/34/rCJvA4uC_o.jpg"
+        "image":arabiata
     },
     {
         "id":"3",
         "title":"Alfredo",
         "price":35,
         "about":"Penne makarna, krema, mantar, tavuk, parmesan", 
-        "image":"https://images2.imgbox.com/7a/f1/sid4U0Z7_o.jpg"
+        "image":alfredo
     },
     {
         "id":"4",
         "title":"Bolognez",
         "price":40,
         "about":"Penne makarna, bolognez sos, kıyma", 
-        "image":"https://images2.imgbox.com/94/16/hvAxQqgL_o.jpg"
+        "image":bolognez
     },
     {
         "id":"5",
         "title":"Ton Balıklı ve Sebzeli",
         "price":35,
         "about":"Penne makarna, kapya biberi, ton balığı", 
-        "image":"https://images2.imgbox.com/e6/75/fthQKpKb_o.jpg"
+        "image":tonbalikli
     },
     {
         "id":"6",
         "title":"Mantı",
         "price":35,
         "about":"", 
-        "image":"https://images2.imgbox.com/f2/61/MC5flrGI_o.jpg"
+        "image":manti
     }
 
 ];
@@ -898,97 +1019,97 @@ export const menu=[
     {
         "id":"1",
         "categoryName":"Kahvaltılık",
-        "image":"https://images2.imgbox.com/b4/63/z6bdvGMe_o.jpg",
+        "image":kahvaltilikMenu,
         "address":"kahvaltilik"
     },
     {
         "id":"2",
         "categoryName":"Sandviçler",
-        "image":"https://images2.imgbox.com/c7/ec/VgZWm9eJ_o.jpg",
+        "image":sandviclerMenu,
         "address":"sandvicler"
     },
     {
         "id":"3",
         "categoryName":"Atıştırmalık",
-        "image":"https://images2.imgbox.com/dd/78/M2yU6ymi_o.jpg",
+        "image":atistirmalikMenu,
         "address":"atistirmalik"
     },
     {
         "id":"4",
         "categoryName":"Makarnalar",
-        "image":"https://images2.imgbox.com/9b/f7/VelJXOph_o.jpg",
+        "image":makarnalarMenu,
         "address":"makarnalar"
     },
     {
         "id":"5",
         "categoryName":"Salatalar",
-        "image":"https://images2.imgbox.com/1f/29/6rYLFdiY_o.jpg",
+        "image":salatalarMenu,
         "address":"salatalar"
     },
     { 
         "id":"6",
         "categoryName":"Burger",
-        "image":"https://images2.imgbox.com/53/23/WLejE8jT_o.jpg",
+        "image":burgerMenu,
         "address":"burger"
     },
     { 
         "id":"7",
         "categoryName":"Ana Yemekler",
-        "image":"https://images2.imgbox.com/89/75/fJkcL2s2_o.jpg",
+        "image":anayemeklerMenu,
         "address":"anayemekler"
     },
     {
         "id":"8",
         "categoryName":"Tatlılar",
-        "image":"https://images2.imgbox.com/61/13/F451ozEb_o.jpg",
+        "image":tatlilarMenu,
         "address":"tatlilar"
     },
     {
         "id":"9",
         "categoryName":"Çaylar",
-        "image":"https://images2.imgbox.com/3c/34/C4txgfvi_o.jpg",
+        "image":caylarMenu,
         "address":"caylar"
     },
     {
         "id":"10",
         "categoryName":"Türk Kahveleri",
-        "image":"https://images2.imgbox.com/9b/9c/1h45Wx4L_o.jpg",
+        "image":turkkahveleriMenu,
         "address":"turkkahveleri"
     },
     {
         "id":"11",
         "categoryName":"Espresso ve Granül Kahveler",
-        "image":"https://images2.imgbox.com/d5/79/ccw47Nj1_o.jpg",
+        "image":espressoMenu,
         "address":"espresso"
     },
     {
         "id":"12",
         "categoryName":"Filtre Kahve ve Dünya Kahveleri",
-        "image":"https://images2.imgbox.com/c2/ca/MTGrTUZD_o.jpg",
+        "image":filtrekahveMenu,
         "address":"filtrekahve"
     },
     {
         "id":"13",
         "categoryName":"Sıcak Sütlü İçecekler",
-        "image":"https://images2.imgbox.com/10/0d/pfWrYpAc_o.jpg",
+        "image":sicakicecekMenu,
         "address":"sicakicecek"
     },
     {
         "id":"14",
         "categoryName":"Soğuk Kahveler",
-        "image":"https://images2.imgbox.com/02/58/2blX9C8u_o.jpg",
+        "image":sogukkahveMenu,
         "address":"sogukkahve"
     },
     { 
         "id":"15",
         "categoryName":"Kokteyller",
-        "image":"https://images2.imgbox.com/a9/d6/7oG55KYi_o.jpg",
+        "image":kokteylMenu,
         "address":"kokteyl"
     },
     {
         "id":"16",
         "categoryName":"Milkshake ve Meşrubatlar",
-        "image":"https://images2.imgbox.com/cf/18/a5ClfTTQ_o.jpg",
+        "image":mesrubatMenu,
         "address":"mesrubatlar"
     }
 ];
@@ -1497,7 +1618,7 @@ export const turkkahveleri=[
     },
     {
         "id":"5",
-        "title":"Dibek Türk Kahvesi",
+        "title":"Dibek Kahvesi",
         "price":17,
         "about":"",
         "image":""
@@ -1511,7 +1632,7 @@ export const turkkahveleri=[
     },
     {
         "id":"9",
-        "title":"Menengiç Türk Kahvesi",
+        "title":"Menengiç Kahvesi",
         "price":18,
         "about":"Süt ile pişirilmektedir.",
         "image":""
