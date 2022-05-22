@@ -160,29 +160,98 @@ import mesrubatMenu from "../images/menu/mesrubat-menu.jpg";
 
 /* mesrubat */
 
-
+import icecoco from "../images/mesrubat/ice  coconut.jpg";
+import caramelmilk from "../images/mesrubat/karamel milkshake.jpg";
+import chocomilk from "../images/mesrubat/çikolata milkshake.jpg";
+import muzmilk from "../images/mesrubat/muz milkshake.jpg";
+import cilekmilk from "../images/mesrubat/çilek milkshake.jpg";
+import berrymilk from "../images/mesrubat/berry milkshake.jpg";
+import shakebrownie from "../images/mesrubat/shake brownie.jpg";
+import su from "../images/mesrubat/su.jpg";
+import camsu from  "../images/mesrubat/cam şişe su.jpg";
+import soda from "../images/mesrubat/soda.jpg";
+import meyvelisoda from "../images/mesrubat/meyveli soda.jpg";
+import kola from "../images/mesrubat/kola.jpg";
+import sprite from "../images/mesrubat/sprite.jpg";
+import churchill from "../images/mesrubat/churchill.jpg";
+import fanta from "../images/mesrubat/fanta.jpg";
+import icetea from "../images/mesrubat/icetea.jpg";
 
 /* salatalar*/
 
-
+import yesilliksalata from "../images/salatalar/yesillik salata.jpg";
+import peynirlisalata from "../images/salatalar/peynirli salata.jpg";
+import tavuksalata from "../images/salatalar/tavuklu salata.jpg";
+import tonbaliksalata from "../images/salatalar/tonbalıklı salata.jpg";
+import citirsalata from "../images/salatalar/çıtır tavuk salata.jpg";
 
 /* sandvicler*/
 
-
+import kahvaltiSan from "../images/sandvicler/kahvaltisandvic.jpg";
+import karisikSan from "../images/sandvicler/karışık sandviç.jpg";
+import kavurmaliSan from "../images/sandvicler/kavurmalı sandvic.jpg";
+import tavukSan from "../images/sandvicler/tavuklusandvic.jpg";
+import tonbalikSan from "../images/sandvicler/tonbalıklısandvic.jpg";
+import kofteSan from "../images/sandvicler/köftesandvic.jpg";
+import patso from "../images/sandvicler/patso.jpg";
+import sosisPatso from "../images/sandvicler/sosisli patso.jpg";
+import sosisSan from "../images/sandvicler/sosisli sandvic.jpg";
+import kumru from "../images/sandvicler/kumru.jpg";
+import tavukmeksikaSan from "../images/sandvicler/tavuklu meksika sandviç.jpg";
+import tavukbarbeküSan from "../images/sandvicler/tavuklu barbeku sandvic.jpg";
+import tavuksoyaSan from "../images/sandvicler/soya sandvic.jpg";
 
 /* sicakicecek */
 
-
+import sicakSut from "../images/sicakicecek/sıcak süt.jpg";
+import cilekSut from "../images/sicakicecek/çilekli süt.jpg";
+import muzSut from "../images/sicakicecek/muzlu süt.jpg";
+import balSut from "../images/sicakicecek/ballı süt.jpg";
+import tahinSut from "../images/sicakicecek/tahinli süt.jpg";
+import sicakCiko from "../images/sicakicecek/sıcak çikolata.jpg";
+import beyazCiko from "../images/sicakicecek/sıcak beyaz çikolata.jpg";
+import rubyCiko from "../images/sicakicecek/sıcak ruby çikolata.jpg";
+import salep from "../images/sicakicecek/salep.jpg";
+import cikoSalep from "../images/sicakicecek/çikolatalı salep.jpg";
+import coconut2 from "../images/sicakicecek/coconut.jpg";
+import hotBisk from "../images/sicakicecek/bisküvi.jpg";
+import rubyBisk from "../images/sicakicecek/ruby bisküvi.jpg"
 
 /* sogukkahve*/
 
-
+import affogato from "../images/sogukicecek/affogato.jpg";
+import iceFiltre from "../images/sogukicecek/buzlu filtre kahve.jpg";
+import iceAmericano from "../images/sogukicecek/buzlu americano.jpg";
+import iceTurk from "../images/sogukicecek/buzlu türk kahvesi.jpg";
+import iceGranul from "../images/sogukicecek/buzlu granül kahve.jpg";
+import dalgona from "../images/sogukicecek/dalgona coffe.jpg";
+import iceMilkGranul from "../images/sogukicecek/buzlu sütlü granül kahve.jpg";
+import iceLatte from "../images/sogukicecek/buzlu latte.jpg";
+import iceMocha from "../images/sogukicecek/buzlu mocha.jpg";
+import iceWhiteMocha from "../images/sogukicecek/buzlu white mocha.jpg";
+import iceMach from "../images/sogukicecek/buzlu macchiato.jpg";
+import frappe from "../images/sogukicecek/frappe.jpg";
+import frappucino from "../images/sogukicecek/frappucino.jpg";
+import frapIce from "../images/sogukicecek/frappucino dondurma.jpg";
 
 /* tatlilar*/
 
-
+import sufle from "../images/tatlilar/sufle.jpg";
+import iceSufle from "../images/tatlilar/dondurmalı sufle.jpg";
+import dailyCup from "../images/tatlilar/günlük meyveli cup.jpg";
+import cikoKrep from "../images/tatlilar/çikolatalı krep.jpg";
+import meyveKrep from "../images/tatlilar/meyveli krep.jpg";
 
 /* turkkahveleri*/
+
+import turkKahve from "../images/turkkahveleri/türk kahvesi.jpg";
+import aromaTurk from "../images/turkkahveleri/aromalı türk kahvesi.jpg";
+import damlaTurk from "../images/turkkahveleri/damla sakızlı türk kahvesi.jpg";
+import sutTurk from "../images/turkkahveleri/sütlü türk kahvesi.jpg";
+import dibek from "../images/turkkahveleri/dibek türk kahvesi.jpg";
+import tahinTurk from "../images/turkkahveleri/sütlü tahinli türk kahvesi.jpg";
+import menengic from "../images/turkkahveleri/menengiç kahvesi.jpg";
+import osmanli from "../images/turkkahveleri/osmanlı kahvesi.jpg";
 
 export const anayemekler=[
     {
@@ -1120,112 +1189,112 @@ export const mesrubat=[
         "title":"Ice Coconut",
         "price":25,
         "about":"",
-        "image":""
+        "image":icecoco
     },
     {
         "id":"2",
         "title":"Karamel Milkshake",
         "price":28,
         "about":"",
-        "image":""
+        "image":caramelmilk
     },
     {
         "id":"3",
         "title":"Çikolata Milkshake",
         "price":28,
         "about":"",
-        "image":""
+        "image":chocomilk
     },
     {
         "id":"4",
         "title":"Muz Milkshake",
         "price":28,
         "about":"",
-        "image":""
+        "image":muzmilk
     },
     {
         "id":"5",
         "title":"Çilek Milkshake",
         "price":28,
         "about":"",
-        "image":""
+        "image":cilekmilk
     },
     {
         "id":"6",
         "title":"Böğürtlen Milkshake",
         "price":28,
         "about":"",
-        "image":""
+        "image":berrymilk
     },
     {
         "id":"7",
         "title":"Shake Brownie",
         "price":30,
         "about":"",
-        "image":""
+        "image":shakebrownie
     },
     {
         "id":"8",
         "title":"Su",
         "price":4,
         "about":"",
-        "image":""
+        "image":su
     },
     {
         "id":"9",
         "title":"Cam Şişe Su",
         "price":7,
         "about":"",
-        "image":""
+        "image":camsu
     },
     {
         "id":"10",
         "title":"Soda",
         "price":10,
         "about":"",
-        "image":""
+        "image":soda
     },
     {
         "id":"11",
         "title":"Meyveli Soda",
         "price":10,
         "about":"",
-        "image":""
+        "image":meyvelisoda
     },
     {
         "id":"12",
         "title":"Kola",
         "price":12,
         "about":"",
-        "image":""
+        "image":kola
     },
     {
         "id":"13",
         "title":"Sprite",
         "price":12,
         "about":"",
-        "image":""
+        "image":sprite
     },
     {
         "id":"14",
         "title":"Churchill",
         "price":14,
         "about":"",
-        "image":""
+        "image":churchill
     },
     {
         "id":"15",
         "title":"Fanta",
         "price":12,
         "about":"",
-        "image":""
+        "image":fanta
     },
     {
         "id":"16",
         "title":"Ice Tea",
         "price":12,
         "about":"",
-        "image":""
+        "image":icetea
     }
 ];
 
@@ -1235,35 +1304,35 @@ export const salatalar=[
         "title":"Yeşillik Salata",
         "price":24,
         "about":"Kıvırcık, atom, roka, nane, cherry domates",
-        "image":"https://images2.imgbox.com/d0/cb/kuRX3Bci_o.jpg"
+        "image":yesilliksalata
     },
     {
         "id":"2",
         "title":"Peynirli Salata",
         "price":30,
         "about":"Kıvırcık, domates, salatalık, çeçil peynir, beyaz peynir, kaşar peynir, cheddar peynir",
-        "image":"https://images2.imgbox.com/cb/72/Z6uOHEnA_o.jpg"
+        "image":peynirlisalata
     },
     {
         "id":"3",
         "title":"Tavuklu Salata",
         "price":36,
         "about":"Kıvırcık, roka, tavuk, cherry domates, mısır",
-        "image":"https://images2.imgbox.com/5f/82/mZPlpe8y_o.jpg"
+        "image":tavuksalata
     },
     {
         "id":"4",
         "title":"Ton Balıklı Salata",
         "price":37,
         "about":"Kıvırcık , roka, nane, domates, mısır, ton balığı",
-        "image":"https://images2.imgbox.com/0d/a9/GalB2BDj_o.jpg"
+        "image":tonbaliksalata
     },
     {
         "id":"5",
         "title":"Çıtır Tavuk Salata",
         "price":38,
         "about":"Kıvırcık , domates, çıtır paneli kemiksiz tavuk parçaları, mısır",
-        "image":"https://images2.imgbox.com/a8/24/fbMqvyaz_o.jpg"
+        "image":citirsalata
     }
 ];
 
@@ -1273,91 +1342,91 @@ export const sandvicler=[
         "title":"Kahvaltı Sandviç",
         "price":17,
         "about":"Kıvırcık, salatalık, domates, beyaz peynir", 
-        "image":"https://images2.imgbox.com/22/db/Ydn6LEPS_o.jpg"
+        "image":kahvaltiSan
     },
     {
         "id":"2",
         "title":"Karışık Sandviç",
         "price":25,
         "about":"Kıvırcık, domates, salatalık, salam, kaşar, beyaz peynir, mısır",  
-        "image":"https://images2.imgbox.com/f7/70/H5eDrzKl_o.jpg"
+        "image":karisikSan
     },
     {
         "id":"3",
         "title":"Kavurmalı Sandviç",
         "price":30,
         "about":"Kıvırcık, domates, beyaz peynir, kavurma", 
-        "image":"https://images2.imgbox.com/d8/fe/770Dp9xb_o.jpg"
+        "image":kavurmaliSan
     },
     {
         "id":"4",
         "title":"Tavuklu Sandviç",
         "price":28,
         "about":"Kıvırcık, domates, ızgara tavuk, patates", 
-        "image":"https://images2.imgbox.com/32/dd/hYrwvaaM_o.jpg"
+        "image":tavukSan
     },
     {
         "id":"5",
         "title":"Ton Balıklı Sandviç",
         "price":28,
         "about":"Kıvırcık, domates, salatalık, ton balığı, mısır", 
-        "image":"https://images2.imgbox.com/bd/c9/DC9B8cY7_o.jpg"
+        "image":tonbalikSan
     },
     {
         "id":"6",
         "title":"Köfte Sandviç",
         "price":30,
         "about":"Kıvırcık, domates, köfte", 
-        "image":"https://images2.imgbox.com/03/44/ANjX9Gpz_o.jpg"
+        "image":kofteSan
     },
     {
         "id":"7",
         "title":"Patso",
         "price":15,
         "about":"", 
-        "image":"https://images2.imgbox.com/93/12/Okl4AOCp_o.jpg"
+        "image":patso
     },
     {
         "id":"8",
         "title":"Sosisli Patso",
         "price":18,
         "about":"", 
-        "image":"https://images2.imgbox.com/6f/b6/4F1Ny7Bl_o.jpg"
+        "image":sosisPatso
     },
     {
         "id":"9",
         "title":"Sosisli Sandviç",
         "price":21,
         "about":"", 
-        "image":"https://images2.imgbox.com/7d/f9/Csml2hdp_o.jpg"
+        "image":sosisSan
     },
     {
         "id":"10",
         "title":"Kumru",
         "price":20,
         "about":"Sucuk, salam, sosis, kaşar", 
-        "image":"https://images2.imgbox.com/95/42/XM2FYwZs_o.jpg"
+        "image":kumru
     },
     {
         "id":"11",
         "title":"Tavuklu Meksika Sandviç",
         "price":25,
         "about":"Kıvırcık, domates, ızgara tavuk", 
-        "image":"https://images2.imgbox.com/59/0f/4mcMmI2c_o.jpg"
+        "image":tavukmeksikaSan
     },
     {
         "id":"12",
         "title":"Tavuklu Barbekü Sandviç",
         "price":25,
         "about":"", 
-        "image":"https://images2.imgbox.com/c2/62/R52U00J5_o.jpg"
+        "image":tavukbarbeküSan
     },
     {
         "id":"13",
         "title":"Tavuklu Soya  Sandviç",
         "price":25,
         "about":"", 
-        "image":"https://images2.imgbox.com/6f/19/ncx6NpIW_o.jpg"
+        "image":tavuksoyaSan
     }
 ];
 
@@ -1367,84 +1436,84 @@ export const sicakicecek=[
         "title":"Sıcak Süt",
         "price":12,
         "about":"",
-        "image":""
+        "image":sicakSut
     },
     {
         "id":"2",
         "title":"Çilekli Süt",
         "price":15,
         "about":"",
-        "image":""
+        "image":cilekSut
     },
     {
         "id":"3",
         "title":"Muzlu Süt",
         "price":15,
         "about":"",
-        "image":""
+        "image":muzSut
     },
     {
         "id":"4",
         "title":"Ballı Süt",
         "price":17,
         "about":"",
-        "image":""
+        "image":balSut
     },
     {
         "id":"5",
         "title":"Tahinli Süt",
         "price":18,
         "about":"",
-        "image":""
+        "image":tahinSut
     },
     {
         "id":"6",
         "title":"Sıcak Çikolata",
         "price":20,
         "about":"",
-        "image":""
+        "image":sicakCiko
     },{
         "id":"7",
         "title":"Sıcak Beyaz Çikolata",
         "price":20,
         "about":"",
-        "image":""
+        "image":beyazCiko
     },{
         "id":"8",
         "title":"Sıcak Ruby Çikolata",
         "price":20,
         "about":"",
-        "image":""
+        "image":rubyCiko
     },{
         "id":"9",
         "title":"Salep",
         "price":20,
         "about":"",
-        "image":""
+        "image":salep
     },{
         "id":"10",
         "title":"Çikolatalı Salep",
         "price":20,
         "about":"",
-        "image":""
+        "image":cikoSalep
     },{
         "id":"11",
         "title":"Coconut",
         "price":20,
         "about":"",
-        "image":""
+        "image":coconut2
     },{
         "id":"12",
         "title":"Bisküvi",
         "price":20,
         "about":"",
-        "image":""
+        "image":hotBisk
     },{
         "id":"13",
         "title":"Ruby Bisküvi",
         "price":20,
         "about":"",
-        "image":""
+        "image":rubyBisk
     }
 ];
 
@@ -1454,98 +1523,98 @@ export const sogukkahve=[
         "title":"Affogato",
         "price":20,
         "about":"",
-        "image":""
+        "image":affogato
     },
     {
         "id":"2",
         "title":"Buzlu Filtre Kahve",
         "price":20,
         "about":"",
-        "image":""
+        "image":iceFiltre
     },
     {
         "id":"3",
         "title":"Buzlu Americano",
         "price":20,
         "about":"",
-        "image":""
+        "image":iceAmericano
     },
     {
         "id":"4",
         "title":"Buzlu Türk Kahvesi",
         "price":20,
         "about":"",
-        "image":""
+        "image":iceTurk
     },
     {
         "id":"5",
         "title":"Buzlu Granül Kahve",
         "price":20,
         "about":"",
-        "image":""
+        "image":iceGranul
     },
     {
         "id":"6",
         "title":"Dalgona Coffee",
         "price":20,
         "about":"Süt üzerine çırpılmış kahve kreması ile servis edilir.",
-        "image":""
+        "image":dalgona
     },
     {
         "id":"7",
         "title":"Buzlu Sütlü Granül Kahve",
         "price":22,
         "about":"",
-        "image":""
+        "image":iceMilkGranul
     },
     {
         "id":"8",
         "title":"Buzlu Latte",
         "price":22,
         "about":"",
-        "image":""
+        "image":iceLatte
     },
     {
         "id":"9",
         "title":"Buzlu Mocha",
         "price":22,
         "about":"",
-        "image":""
+        "image":iceMocha
     },
     {
         "id":"10",
         "title":"Buzlu White Mocha",
         "price":22,
         "about":"",
-        "image":""
+        "image":iceWhiteMocha
     },
     {
         "id":"11",
         "title":"Buzlu Macchiato",
         "price":22,
         "about":"",
-        "image":""
+        "image":iceMach
     },
     {
         "id":"12",
         "title":"Frappe",
         "price":23,
         "about":"",
-        "image":""
+        "image":frappe
     },
     {
         "id":"13",
         "title":"Frappucino",
         "price":24,
         "about":"Çikolata, karamel, fındık seçenekleri vardır.",
-        "image":""
+        "image":frappucino
     },
     {
         "id":"14",
         "title":"Dondurmalı Frappucino",
         "price":25,
         "about":"Karamelli Dondurma",
-        "image":""
+        "image":frapIce
     }
 ];
 
@@ -1555,35 +1624,35 @@ export const tatlilar=[
         "title":"Sufle",
         "price":23,
         "about":"",
-        "image":""
+        "image":sufle
     },
     {
         "id":"2",
         "title":"Dondurmalı Sufle",
         "price":25,
         "about":"",
-        "image":""
+        "image":iceSufle
     },
     {
         "id":"3",
         "title":"Günlük Meyveli Cup",
         "price":20,
         "about":"",
-        "image":""
+        "image":dailyCup
     },
     {
         "id":"4",
         "title":"Çikolatalı Krep",
         "price":15,
         "about":"",
-        "image":""
+        "image":cikoKrep
     },
     {
         "id":"5",
         "title":"Meyveli Krep",
         "price":17,
         "about":"",
-        "image":""
+        "image":meyveKrep
     }
 ];
 
@@ -1593,56 +1662,56 @@ export const turkkahveleri=[
         "title":"Türk Kahvesi",
         "price":14,
         "about":"",
-        "image":""
+        "image":turkKahve
     },
     {
         "id":"2",
         "title":"Aromalı Türk Kahvesi",
         "price":15,
         "about":"Fındık, karamel, çikolata, muz, kavun, beyaz çikolata, ruby çikolata",
-        "image":""
+        "image":aromaTurk
     },
     {
         "id":"3",
         "title":"Damla Sakızlı Türk Kahvesi",
         "price":15,
         "about":"",
-        "image":""
+        "image":damlaTurk
     },
     {
         "id":"4",
         "title":"Sütlü Türk Kahvesi",
         "price":15,
         "about":"",
-        "image":""
+        "image":sutTurk
     },
     {
         "id":"5",
         "title":"Dibek Kahvesi",
         "price":17,
         "about":"",
-        "image":""
+        "image":dibek
     },
     {
         "id":"8",
         "title":"Sütlü Tahinli Türk Kahvesi",
         "price":17,
         "about":"",
-        "image":""
+        "image":tahinTurk
     },
     {
         "id":"9",
         "title":"Menengiç Kahvesi",
         "price":18,
         "about":"Süt ile pişirilmektedir.",
-        "image":""
+        "image":menengic
     },
     {
         "id":"10",
         "title":"Osmanlı Kahvesi",
         "price":18,
         "about":"",
-        "image":""
+        "image":osmanli
     }
 ];
 
