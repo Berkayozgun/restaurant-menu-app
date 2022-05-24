@@ -75,7 +75,7 @@ function Espresso() {
                         </Modal.Title>
                       </Modal.Header>
                       <Modal.Body>
-                        <img src={Imagex} />
+                        <img className="modal-img" src={Imagex} />
                         <p>{About}</p>
                         <p>{Price} TL</p>
                       </Modal.Body>

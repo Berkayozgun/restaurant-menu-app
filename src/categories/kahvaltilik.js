@@ -53,10 +53,12 @@ function Kahvaltilik() {
                       <Card.Title className="card-title">
                         {post.title}
                       </Card.Title>
+                    
                     </Card.Body>
+                   
                   </Card>
                 </a>
-
+                
                 {setShow && (
                   <div>
                     <Modal
@@ -73,7 +75,7 @@ function Kahvaltilik() {
                         </Modal.Title>
                       </Modal.Header>
                       <Modal.Body>
-                        <img src={Imagex} />
+                        <img className="modal-img" src={Imagex} />
                         <p>{About}</p>
                         <p>{Price} TL</p>
                       </Modal.Body>
