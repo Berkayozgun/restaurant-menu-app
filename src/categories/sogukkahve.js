@@ -78,7 +78,9 @@ function Sogukkahve() {
                         <p>{Price} TL</p>
                       </Modal.Body>
                       <Modal.Footer>
-                        <Button onClick={() => setShow(false)}>
+                      <Button onClick={() => {
+                              setShow(false);
+                              alert('Sepete Eklendi!')}}>
                           Sepete Ekle
                         </Button>
                       </Modal.Footer>

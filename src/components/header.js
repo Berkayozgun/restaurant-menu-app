@@ -49,25 +49,31 @@ function Header() {
             >
               Options
             </DropdownToggle>
+
+
             <DropdownMenu right>
+
               <DropdownItem>
                 Option 1
               </DropdownItem>
+
               <DropdownItem>
                 Option 2
               </DropdownItem>
+
               <DropdownItem divider />
               <DropdownItem>
                 Reset
               </DropdownItem>
             </DropdownMenu>
+
           </UncontrolledDropdown>
         </Nav>
        
       </Collapse>
     </Navbar>
   </div>
-    </div>
+</div>
 
   )
 }
