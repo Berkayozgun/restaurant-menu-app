@@ -5,7 +5,7 @@ import Home from "../pages/home";
 import Aboutus from "../pages/aboutus";
 import Contact from "../pages/contact";
 import Bucket from "../components/bucket";
-import Page from "../pages/cart";
+import Cart from "../pages/cart";
 
 
 import Anayemekler from "../categories/anayemekler";
@@ -47,7 +47,7 @@ function PublicRouter() {
         </Route>
 
         <Route path="/cart">
-          <Page />
+          <Cart />
         </Route>
 
 

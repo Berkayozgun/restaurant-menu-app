@@ -190,3 +190,8 @@
 a{
   text-decoration: none;
 }
+.modal-img{
+  width:15rem;
+  height:15rem;
+  margin:auto;
+}

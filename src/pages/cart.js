@@ -1,12 +1,10 @@
 import React from 'react'
 
 
-function cart() {
+function Cart() {
   return (
-    <div>
-      
-    </div>
+    <div></div>
   )
 }
 
-export default cart
+export default Cart
