@@ -73,7 +73,7 @@ function Filtrekahve() {
                         <p>{Price} TL</p>
                       </Modal.Body>
                       <Modal.Footer>
-                        <Button onClick={() => setShow(false)}>Close</Button>
+                        <Button onClick={() => setShow(false)}>Sepete Ekle</Button>
                       </Modal.Footer>
                     </Modal>
                   </div>

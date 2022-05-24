@@ -78,7 +78,7 @@ function Kokteyl() {
                       </Modal.Body>
                       <Modal.Footer>
                         <Button onClick={() => setShow(false)}>
-                          Close
+                          Sepete Ekle
                         </Button>
                       </Modal.Footer>
                     </Modal>
