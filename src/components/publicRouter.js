@@ -5,6 +5,7 @@ import Home from "../pages/home";
 import Aboutus from "../pages/aboutus";
 import Contact from "../pages/contact";
 import Bucket from "../components/bucket";
+import Page from "../pages/cart";
 
 
 import Anayemekler from "../categories/anayemekler";
@@ -43,6 +44,10 @@ function PublicRouter() {
 
         <Route path="/bucket">
           <Bucket />
+        </Route>
+
+        <Route path="/cart">
+          <Page />
         </Route>
 
 

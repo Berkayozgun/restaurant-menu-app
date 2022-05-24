@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Popup = props => {
   return (
     <div className="popup-box">
@@ -7,6 +8,7 @@ const Popup = props => {
         <span className="close-icon" onClick={props.handleClose}>X</span>
         {props.content}
       </div>
+      
     </div>
   );
 };

@@ -1,12 +1,12 @@
 import React from "react";
-import Card from "../components/card";
+import Cards from "../components/cardx";
 
 
 function Home() {
   return (
     <div>
       
-      <Card />
+      <Cards />
     </div>
   );
 }

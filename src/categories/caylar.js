@@ -1,20 +1,18 @@
 import React, {useState} from 'react';
-import {caylar} from "../jsonfiles/dataset";
+import {data} from "../jsonfiles/dataset.js";
 import "../App.css";
-import Popup from '../components/popup';
+import {Card, Modal, Button} from 'react-bootstrap';
 
-function Caylar() {
+function Caylar()  {
 
-  const [isOpen, setIsOpen] = useState(false);
+  
 
-  const togglePopup = () => {
-      setIsOpen(!isOpen);
-  }
+  const [modalShow, setModalShow] = React.useState(false);
 
-  const [Title,setTitle] = useState('');
-  const [Image,setImage] = useState('');
-  const [Price,setPrice] = useState('');
-  const [About,setAbout] = useState('');
+    const [Title,setTitle] = useState('');
+    const [Imagex,setImage] = useState('');
+    const [Price,setPrice] = useState('');
+    const [About,setAbout] = useState('');
 
   return (
     <div>
@@ -23,50 +21,76 @@ function Caylar() {
 
         <div className="order-card-row">
 
-        {caylar.map((post) => {
-              return( <div key={post.id} className="order-card" onClick={togglePopup}>
-              <a 
-             href="#"
-             style={{textDecoration: 'none'}} 
-             onClick={ 
-               () => { setTitle(post.title) ;
-                       setImage(post.image) ; 
-                       setPrice(post.price) ; 
-                       setAbout(post.about)}}>
-                 <div className="card-logo">
-                   <img className="category-pic" src={post.image} alt="images"/>
-                 </div>
-                 <div className="card-header">{post.title}</div>
-               </a>
+          {data.caylar.map((post) => {
+              return ( <div key={post.id} className="order-card" style={{}} onClick={() => setModalShow(true)}>
+                <a 
+                href="#"
+            style={{textDecoration: 'none'}}
+            onClick={ 
+              () => { setTitle(post.title) ;
+                      setImage(post.image) ; 
+                      setPrice(post.price) ; 
+                      setAbout(post.about)}} >
 
-               {isOpen && <Popup
-     content={<>
-       <b className="popup-title">{Title}</b>
-       <img className="popup-pic" src={Image} alt="images"></img>
-       <p className="popup-about">{About}</p>
-       <p className="popup-price">{Price} TL</p>
-       
-       <button className="popup-add">Sepete ekle</button>
-     </>}
-     handleClose={togglePopup}
-   />}
-       
-             </div>
-             
-        )
-          })}
+            <Card className="card" 
+            style={{borderRadius:"20%"}}>
 
+              <Card.Img
+                style={{borderRadius:"20%"}}
+                className="card-img"
+                variant="top"
+                src={post.image}
+                alt="Card image cap"
+              />
+
+              <Card.Body>
+
+                <Card.Title className="card-title">{post.title}</Card.Title>
+
+              </Card.Body>
+            </Card>
+            </a>
+
+                {setModalShow && <div>
+                  <Modal style={{borderRadius:"10%"}}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+      show={modalShow}
+      onHide={() => setModalShow(false)}
+      
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          {Title}
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img src={Imagex}/>
+        <p>{About}</p>
+        <p>
+          {Price} TL
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={() => setModalShow(false)}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+    </div>}
+        
+              </div>
+              
+         ) })}
+
+          
         </div>
 
+      
 
-        
-
-       
 
         </div>
 
     </div>
   )
 }
-
 export default Caylar
