@@ -3,11 +3,11 @@ import "../App.css";
 import { data } from "../jsonfiles/dataset.js";
 import { Card } from "react-bootstrap";
 
-function Cards() {
+function Cardx() {
   return (
-    <div className="card-body">
+    <div>
       <div>
-        <h1>Menü</h1>
+        <h1 className="card-header">Menü</h1>
       </div>
       <div className="card-row">
         {data.menu.map((post) => {
@@ -28,18 +28,18 @@ function Cards() {
                 alt="Card image cap"
               />
 
-              <Card.Body>
+              <div className="card-bodyx">
 
-                <Card.Title className="card-title">{post.categoryName}</Card.Title>
+                <div className="cardx-title">{post.categoryName}</div>
 
-              </Card.Body>
+              </div>
             </Card>
             </a>
           );
         })}
       </div>
-    </div>
+      </div>
   );
 }
 
-export default Cards;
+export default Cardx;

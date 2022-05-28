@@ -31,18 +31,8 @@ function Caylar() {
                 className="order-card"
                 style={{}}
               >
-                <a
-                  href="#"
-                  style={{ textDecoration: "none" }}
-                  onClick={() => {
-                    setTitle(post.title);
-                    setImage(post.image);
-                    setPrice(post.price);
-                    setAbout(post.about);
-                    setShow(true);
-                  }}
-                >
-                  <Card className="card" style={{ borderRadius: "20%" }}>
+                
+                  <Card className="order-card" style={{ borderRadius: "20%" }}>
                     <Card.Img
                       style={{ borderRadius: "20%" }}
                       className="card-img"
@@ -55,10 +45,22 @@ function Caylar() {
                       <Card.Title className="card-title">
                         {post.title}
                       </Card.Title>
+                    <Button onClick={() => {
+                    setTitle(post.title);
+                    setImage(post.image);
+                    setPrice(post.price);
+                    setAbout(post.about);
+                    setShow(true);
+                  }} className="detay-button">Detay</Button>
+                    <Button onClick={() => {
+                              setShow(false);
+                              alert('Sepete Eklendi!')}}
+                              className="sepete-ekle-button">Sepete Ekle</Button>
                     </Card.Body>
+                   
                   </Card>
-                </a>
-
+                
+                
                 {setShow && (
                   <div>
                     <Modal
@@ -80,7 +82,7 @@ function Caylar() {
                         <p>{Price} TL</p>
                       </Modal.Body>
                       <Modal.Footer>
-                      <Button onClick={() => {
+                         <Button onClick={() => {
                               setShow(false);
                               alert('Sepete Eklendi!')}}>
                           Sepete Ekle
